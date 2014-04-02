@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Category (Default)">
+		<message>Displays videos from a category.</message>
+	</layout>
+	<state>
+		<name>Category (Default)</name>
+		<description>Displays videos from a category.</description>
+		<fields name="request">			
+			<fieldset name="request"
+				addfieldpath="/administrator/components/com_mijovideos/library/elements">
+				<field name="category_id" type="mijovideoscategories" size="3" default="0" label="Category" description="Choose the category which you want to display videos." />
+			</fieldset>
+		</fields>
+	</state>
+</metadata>

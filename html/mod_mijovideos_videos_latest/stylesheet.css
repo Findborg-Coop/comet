@@ -1,0 +1,25 @@
+.mijovideos_box_content_50 {
+	display:inline-block;
+}
+.mijovideos_box_h3{
+	padding-left:0 !important;
+	margin: 0 0 5px;
+}
+.mijovideos_box_h3 a {
+color: #2793e6 !important;
+font-size: 14px;
+font-weight: bold !important;
+}
+.mijovideos-meta-info {
+font-size: 12px;
+}
+.videos-view {
+display: inline-block;
+margin-right: 5px;
+}
+.mijovideos-meta-info span {
+font-size: 11px;
+}
+.videos-view span {
+color: #555 !important;
+}

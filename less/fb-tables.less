@@ -1,0 +1,640 @@
+/*
+ * # Semantic - Table
+ * http://github.com/jlukic/semantic-ui/
+ *
+ *
+ * Copyright 2013 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+             Table
+*******************************/
+
+/* Prototype */
+
+.fb.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Content */
+
+.fb.table th,
+.fb.table tr,
+.fb.table td {
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+/* Headers */
+
+.fb.table thead {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.fb.table tfoot th {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.fb.table th {
+  cursor: auto;
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0.5em 0.7em;
+  vertical-align: middle;
+}
+
+.fb.table thead th:first-child {
+  border-radius: 5px 0px 0px 0px;
+}
+
+.fb.table thead th:last-child {
+  border-radius: 0px 5px 0px 0px;
+}
+
+.fb.table tfoot th:first-child {
+  border-radius: 0px 0px 0px 5px;
+}
+
+.fb.table tfoot th:last-child {
+  border-radius: 0px 0px 5px 0px;
+}
+
+/* Table Cells */
+
+.fb.table td {
+  padding: 0.40em 0.7em;
+  vertical-align: middle;
+}
+
+/* Footer */
+
+.fb.table tfoot {
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.fb.table tfoot th {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Table Striping */
+
+.fb.table tbody tr:nth-child(2n) {
+  background-color: rgba(0, 0, 50, 0.02);
+}
+
+/* Icons */
+
+.fb.table > .icon {
+  vertical-align: baseline;
+}
+
+.fb.table > .icon:only-child {
+  margin: 0em;
+}
+
+/* Table Segment */
+
+.fb.table.segment:after {
+  display: none;
+}
+
+.fb.table.segment.stacked:after {
+  display: block;
+}
+
+/* Responsive */
+
+@media only screen and (max-width : 768px) {
+  .fb.table {
+    display: block;
+    padding: 0em;
+  }
+
+  .fb.table thead,
+  .fb.table tfoot {
+    display: none;
+  }
+
+  .fb.table tbody {
+    display: block;
+  }
+
+  .fb.table tr {
+    display: block;
+  }
+
+  .fb.table tr > td {
+    width: 100% !important;
+    display: block;
+    border: none !important;
+    padding: 0.25em 0.75em;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05) !important;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .fb.table td:first-child {
+    font-weight: bold;
+    padding-top: 1em;
+  }
+
+  .fb.table td:last-child {
+    -webkit-box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset !important;
+    box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset !important;
+    padding-bottom: 1em;
+  }
+
+  /* Clear BG Colors */
+
+  .fb.table tr > td.warning,
+  .fb.table tr > td.error,
+  .fb.table tr > td.active,
+  .fb.table tr > td.positive,
+  .fb.table tr > td.negative {
+    background-color: transparent !important;
+  }
+}
+
+/*******************************
+             States
+*******************************/
+
+/*--------------
+      Hover
+---------------*/
+
+/* Sortable */
+
+.fb.sortable.table th.disabled:hover {
+  cursor: auto;
+  text-align: left;
+  font-weight: bold;
+  color: #333333;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.fb.sortable.table thead th:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Inverted Sortable */
+
+.fb.inverted.sortable.table thead th:hover {
+  background-color: rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 1);
+}
+
+/*--------------
+    Positive
+---------------*/
+
+.fb.table tr.positive,
+.fb.table td.positive {
+  -webkit-box-shadow: 2px 0px 0px #119000 inset;
+  box-shadow: 2px 0px 0px #119000 inset;
+}
+
+.fb.table tr.positive td,
+.fb.table td.positive {
+  background-color: #F2F8F0 !important;
+  color: #119000 !important;
+}
+
+.fb.celled.table tr.positive:hover td,
+.fb.celled.table tr:hover td.positive,
+.fb.table tr.positive:hover td,
+.fb.table td:hover.positive,
+.fb.table th:hover.positive {
+  background-color: #ECF5E9 !important;
+  color: #119000 !important;
+}
+
+/*--------------
+     Negative
+---------------*/
+
+.fb.table tr.negative,
+.fb.table td.negative {
+  -webkit-box-shadow: 2px 0px 0px #CD2929 inset;
+  box-shadow: 2px 0px 0px #CD2929 inset;
+}
+
+.fb.table tr.negative td,
+.fb.table td.negative {
+  background-color: #F9F4F4;
+  color: #CD2929 !important;
+}
+
+.fb.celled.table tr.negative:hover td,
+.fb.celled.table tr:hover td.negative,
+.fb.table tr.negative:hover td,
+.fb.table td:hover.negative,
+.fb.table th:hover.negative {
+  background-color: #F2E8E8;
+  color: #CD2929;
+}
+
+/*--------------
+      Error
+---------------*/
+
+.fb.table tr.error,
+.fb.table td.error {
+  -webkit-box-shadow: 2px 0px 0px #CD2929 inset;
+  box-shadow: 2px 0px 0px #CD2929 inset;
+}
+
+.fb.table tr.error td,
+.fb.table td.error,
+.fb.table th.error {
+  background-color: #F9F4F4;
+  color: #CD2929;
+}
+
+.fb.celled.table tr.error:hover td,
+.fb.celled.table tr:hover td.error,
+.fb.table tr.error:hover td,
+.fb.table td:hover.error,
+.fb.table th:hover.error {
+  background-color: #F2E8E8;
+  color: #CD2929;
+}
+
+/*--------------
+     Warning
+---------------*/
+
+.fb.table tr.warning,
+.fb.table td.warning {
+  -webkit-box-shadow: 2px 0px 0px #7D6C00 inset;
+  box-shadow: 2px 0px 0px #7D6C00 inset;
+}
+
+.fb.table tr.warning td,
+.fb.table td.warning,
+.fb.table th.warning {
+  background-color: #FBF6E9;
+  color: #7D6C00;
+}
+
+.fb.celled.table tr.warning:hover td,
+.fb.celled.table tr:hover td.warning,
+.fb.table tr.warning:hover td,
+.fb.table td:hover.warning,
+.fb.table th:hover.warning {
+  background-color: #F3EDDC;
+  color: #7D6C00;
+}
+
+/*--------------
+     Active
+---------------*/
+
+.fb.table tr.active,
+.fb.table td.active {
+  -webkit-box-shadow: 2px 0px 0px rgba(50, 50, 50, 0.9) inset;
+  box-shadow: 2px 0px 0px rgba(50, 50, 50, 0.9) inset;
+}
+
+.fb.table tr.active td,
+.fb.table tr td.active {
+  background-color: #E0E0E0;
+  color: rgba(50, 50, 50, 0.9);
+  /* border-color: rgba(0, 0, 0, 0.15) !important; */
+}
+
+/*--------------
+     Disabled
+---------------*/
+
+.fb.table tr.disabled td,
+.fb.table tr td.disabled,
+.fb.table tr.disabled:hover td,
+.fb.table tr:hover td.disabled {
+  color: rgba(150, 150, 150, 0.3);
+}
+
+/*******************************
+          Variations
+*******************************/
+
+/*--------------
+  Column Count
+---------------*/
+
+.fb.two.column.table td {
+  width: 50%;
+}
+
+.fb.three.column.table td {
+  width: 33.3333%;
+}
+
+.fb.four.column.table td {
+  width: 25%;
+}
+
+.fb.five.column.table td {
+  width: 20%;
+}
+
+.fb.six.column.table td {
+  width: 16.66667%;
+}
+
+.fb.seven.column.table td {
+  width: 14.2857%;
+}
+
+.fb.eight.column.table td {
+  width: 12.5%;
+}
+
+.fb.nine.column.table td {
+  width: 11.1111%;
+}
+
+.fb.ten.column.table td {
+  width: 10%;
+}
+
+.fb.eleven.column.table td {
+  width: 9.0909%;
+}
+
+.fb.twelve.column.table td {
+  width: 8.3333%;
+}
+
+.fb.thirteen.column.table td {
+  width: 7.6923%;
+}
+
+.fb.fourteen.column.table td {
+  width: 7.1428%;
+}
+
+.fb.fifteen.column.table td {
+  width: 6.6666%;
+}
+
+.fb.sixteen.column.table td {
+  width: 6.25%;
+}
+
+/* Column Width */
+
+.fb.table th.one.wide,
+.fb.table td.one.wide {
+  width: 6.25%;
+}
+
+.fb.table th.two.wide,
+.fb.table td.two.wide {
+  width: 12.5%;
+}
+
+.fb.table th.three.wide,
+.fb.table td.three.wide {
+  width: 18.75%;
+}
+
+.fb.table th.four.wide,
+.fb.table td.four.wide {
+  width: 25%;
+}
+
+.fb.table th.five.wide,
+.fb.table td.five.wide {
+  width: 31.25%;
+}
+
+.fb.table th.six.wide,
+.fb.table td.six.wide {
+  width: 37.5%;
+}
+
+.fb.table th.seven.wide,
+.fb.table td.seven.wide {
+  width: 43.75%;
+}
+
+.fb.table th.eight.wide,
+.fb.table td.eight.wide {
+  width: 50%;
+}
+
+.fb.table th.nine.wide,
+.fb.table td.nine.wide {
+  width: 56.25%;
+}
+
+.fb.table th.ten.wide,
+.fb.table td.ten.wide {
+  width: 62.5%;
+}
+
+.fb.table th.eleven.wide,
+.fb.table td.eleven.wide {
+  width: 68.75%;
+}
+
+.fb.table th.twelve.wide,
+.fb.table td.twelve.wide {
+  width: 75%;
+}
+
+.fb.table th.thirteen.wide,
+.fb.table td.thirteen.wide {
+  width: 81.25%;
+}
+
+.fb.table th.fourteen.wide,
+.fb.table td.fourteen.wide {
+  width: 87.5%;
+}
+
+.fb.table th.fifteen.wide,
+.fb.table td.fifteen.wide {
+  width: 93.75%;
+}
+
+.fb.table th.sixteen.wide,
+.fb.table td.sixteen.wide {
+  width: 100%;
+}
+
+/*--------------
+     Celled
+---------------*/
+
+.fb.celled.table {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.fb.celled.table tbody tr,
+.fb.celled.table tfoot tr {
+  border: none;
+}
+
+.fb.celled.table th,
+.fb.celled.table td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Coupling with segment */
+
+.fb.celled.table.segment th:first-child,
+.fb.celled.table.segment td:first-child {
+  border-left: none;
+}
+
+.fb.celled.table.segment th:last-child,
+.fb.celled.table.segment td:last-child {
+  border-right: none;
+}
+
+/*--------------
+    Sortable
+---------------*/
+
+.fb.sortable.table thead th {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.fb.sortable.table thead th.sorted,
+.fb.sortable.table thead th.sorted:hover {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.fb.sortable.table thead th:after {
+  display: inline-block;
+  content: '';
+  width: 1em;
+  opacity: 0.8;
+  margin: 0em 0em 0em 0.5em;
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.fb.sortable.table thead th.ascending:after {
+  content: '\25b4';
+}
+
+.fb.sortable.table thead th.descending:after {
+  content: '\25be';
+}
+
+/*--------------
+    Inverted
+---------------*/
+
+/* Text Color */
+
+.fb.inverted.table td {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fb.inverted.table th {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Stripes */
+
+.fb.inverted.table tbody tr:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+/*--------------
+   Definition
+---------------*/
+
+.fb.definition.table td:first-child {
+  font-weight: bold;
+}
+
+/*--------------
+   Collapsing
+---------------*/
+
+.fb.collapsing.table {
+  width: auto;
+}
+
+/*--------------
+      Basic
+---------------*/
+
+.fb.basic.table th {
+  background-color: transparent;
+  padding: 0.5em;
+}
+
+.fb.basic.table tbody tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.fb.basic.table td {
+  padding: 0.8em 0.5em;
+}
+
+.fb.basic.table tbody tr:nth-child(2n) {
+  background-color: transparent !important;
+}
+
+/*--------------
+     Padded
+---------------*/
+
+.fb.padded.table th,
+.fb.padded.table td {
+  padding: 0.8em 1em;
+}
+
+.fb.compact.table th {
+  padding: 0.3em 0.5em;
+}
+
+.fb.compact.table td {
+  padding: 0.2em 0.5em;
+}
+
+/*--------------
+      Sizes
+---------------*/
+
+/* Small */
+
+.fb.small.table {
+  font-size: 0.875em;
+}
+
+/* Standard */
+
+.fb.table {
+  font-size: 1em;
+}
+
+/* Large */
+
+.fb.large.table {
+  font-size: 1.1em;
+}

@@ -1,0 +1,112 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Global values
+// --------------------------------------------------
+
+@highlight:              #F1F1F1;
+@highlight-light:        lighten(@highlight, 2%);
+@highlight-lighter:      lighten(@highlight, 3.5%);
+@highlight-darker:       darken(@highlight, 10%); 
+@highlight-dark:         darken(@highlight, 5%);
+// Grays
+// -------------------------
+
+@gray-darker:            lighten(#000, 13.5%); // #222
+@gray-dark:              lighten(#000, 20%);   // #333
+@gray:                   lighten(#000, 33.5%); // #555
+@gray-light:             lighten(#000, 60%);   // #999
+@gray-lighter:           lighten(#000, 93.5%); // #eee
+
+// Brand colors
+// -------------------------
+@white:                 #FFFFFF;
+@white-dark:            darken(@white, .5%);
+@white-darker:          darken(@white, 1%);
+@red:                   #DB4437;
+@red-light:             lighten(@red, 10.5%);
+@red-lighter:           lighten(@red, 20.5%);
+@red-dark:              darken(@red, 5%);
+@red-darker:            darken(@red, 10%);
+@blue:                  #0386f8;
+@blue-light:            lighten(@blue, 10.5%);
+@blue-lighter:          lighten(@blue, 20.5%);
+@blue-dark:             darken(@blue, 5%);
+@blue-darker:           darken(@blue, 10%);
+@green:                 #33b679;
+@green-light:           lighten(@green, 10.5%);
+@green-lighter:         lighten(@green, 20.5%);
+@green-dark:            darken(@green, 5%);
+@green-darker:          darken(@green, 10%);
+@orange:                #f26a44;
+@orange-light:          lighten(@orange, 10.5%);
+@orange-lighter:        lighten(@orange, 20.5%);
+@orange-dark:           darken(@orange, 5%);
+@orange-darker:         darken(@orange, 10%);
+
+@yellow:                #fbcb43;
+@yellow-light:          lighten(@yellow, 10.5%);
+@yellow-lighter:        lighten(@yellow, 20.5%);
+@yellow-dark:           darken(@yellow, 5%);
+@yellow-darker:         darken(@yellow, 10%);
+@purple:                #a47fbe;
+@purple-light:          lighten(@purple, 10.5%);
+@purple-lighter:        lighten(@purple, 20.5%);
+@purple-dark:           darken(@purple, 5%);
+@purple-darker:         darken(@purple, 10%);
+@teal:                  #1bbc98;
+@teal-light:            lighten(@teal, 10.5%);
+@teal-lighter:          lighten(@teal, 20.5%);
+@teal-dark:             darken(@teal, 5%);
+@teal-darker:           darken(@teal, 10%);
+@brand-primary:         #428bca;
+@brand-success:         #5cb85c;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+@brand-info:            #5bc0de;
+
+// Scaffolding
+// -------------------------
+
+@body-bg:               #fff;
+@text-color:            @gray-dark;
+
+// Links
+// -------------------------
+
+@link-color:           @blue-dark;
+
+// Typography
+// -------------------------
+
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+// Grids Configuration
+//---------------------------
+// Tempo Variables
+
+// .container max-width
+@max-width: 75rem !default;
+
+// Grid and tile gutter
+@gutter: 3% !default;
+
+// Maximum level of pre/post classes to generate
+@pre-post-max: 2 !default;
+//dropdowns
+//** Global color for active items (e.g., navs or dropdowns).
+@component-active-color:    #fff;
+//** Global background color for active items (e.g., navs or dropdowns).
+@component-active-bg:       @brand-primary;
+
+//** Width of the `border` for generating carets that indicator dropdowns.
+@caret-width-base:          4px;
+//** Carets increase slightly in size for larger components.
+@caret-width-large:         5px;
+// Breakpoints
+@bp1: 36em !default;
+@bp2: 60em !default;
+@bp3: 75em !default;

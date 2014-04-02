@@ -1,0 +1,896 @@
+/*
+ * # Semantic - Label
+ * http://github.com/jlukic/semantic-ui/
+ *
+ *
+ * Copyright 2013 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+            Label
+*******************************/
+
+.fb.label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: -0.25em 0.25em 0em;
+  background-color: #E8E8E8;
+  border-color: #E8E8E8;
+  padding: 0.5em 0.8em;
+  color: rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 0.325em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+
+.fb.label:first-child {
+  margin-left: 0em;
+}
+
+.fb.label:last-child {
+  margin-right: 0em;
+}
+
+/* Link */
+
+a.fb.label {
+  cursor: pointer;
+}
+
+/* Inside Link */
+
+.fb.label a {
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.8;
+  -webkit-transition: 0.2s opacity ease;
+  transition: 0.2s opacity ease;
+}
+
+.fb.label a:hover {
+  opacity: 1;
+}
+
+/* Detail */
+
+.fb.label .detail {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+/* Icon */
+
+.fb.label .icon {
+  width: auto;
+}
+
+/* Removable label */
+
+.fb.label .delete.icon {
+  cursor: pointer;
+  margin: 0em 0em 0em 0.5em;
+  opacity: 0.7;
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+
+.fb.label .delete.icon:hover {
+  opacity: 0.99;
+}
+
+/*-------------------
+       Coupling
+--------------------*/
+
+/* Padding on next content after a label */
+
+.fb.segment > .attached.label:first-child + * {
+  margin-top: 2.5em;
+}
+
+.fb.segment > .bottom.attached.label:first-child ~ :last-child {
+  margin-top: 0em;
+  margin-bottom: 2.5em;
+}
+
+/*******************************
+             Types
+*******************************/
+
+.fb.image.label {
+  width: auto !important;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  line-height: 1.5em;
+  vertical-align: baseline;
+  text-transform: none;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.fb.image.label img {
+  display: inline-block;
+  height: 2.25em;
+  margin: -0.4em 0.8em -0.4em -0.8em;
+  vertical-align: top;
+  border-radius: 0.325em 0em 0em 0.325em;
+}
+
+/*******************************
+             States
+*******************************/
+
+/*-------------------
+      Disabled
+--------------------*/
+
+.fb.label.disabled {
+  opacity: 0.5;
+}
+
+/*-------------------
+        Hover
+--------------------*/
+
+a.fb.labels .label:hover,
+a.fb.label:hover {
+  background-color: #E0E0E0;
+  border-color: #E0E0E0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fb.labels a.label:hover:before,
+a.fb.label:hover:before {
+  background-color: #E0E0E0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*-------------------
+      Visible
+--------------------*/
+
+.fb.labels.visible .label,
+.fb.label.visible {
+  display: inline-block !important;
+}
+
+/*-------------------
+      Hidden
+--------------------*/
+
+.fb.labels.hidden .label,
+.fb.label.hidden {
+  display: none !important;
+}
+
+/*******************************
+           Variations
+*******************************/
+
+/*-------------------
+         Tag
+--------------------*/
+
+.fb.tag.labels .label,
+.fb.tag.label {
+  margin-left: 1em;
+  position: relative;
+  padding: 0.33em 1.3em 0.33em 1.4em;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.fb.tag.labels .label:before,
+.fb.tag.label:before {
+  position: absolute;
+  top: 0.3em;
+  left: 0.3em;
+  content: '';
+  margin-left: -1em;
+  background-image: none;
+  width: 1.5em;
+  height: 1.5em;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+
+.fb.tag.labels .label:after,
+.fb.tag.label:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: -0.25em;
+  margin-top: -0.3em;
+  background-color: #FFFFFF;
+  width: 0.55em;
+  height: 0.55em;
+  -webkit-box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 100px 100px 100px 100px;
+}
+
+/*-------------------
+       Ribbon
+--------------------*/
+
+.fb.ribbon.label {
+  position: relative;
+  margin: 0em 0.2em;
+  left: -2rem;
+  padding-left: 2rem;
+  border-radius: 0px 4px 4px 0px;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.fb.ribbon.label:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0%;
+  border-top: 0em solid transparent;
+  border-right-width: 1em;
+  border-right-color: inherit;
+  border-right-style: solid;
+  border-bottom: 1em solid transparent;
+  border-left: 0em solid transparent;
+  width: 0em;
+  height: 0em;
+}
+
+/*-------------------
+       Attached
+--------------------*/
+
+.fb.top.attached.label,
+.fb.attached.label {
+  width: 100%;
+  position: absolute;
+  margin: 0em;
+  top: 0em;
+  left: 0em;
+  padding: 0.75em 1em;
+  border-radius: 4px 4px 0em 0em;
+}
+
+.fb.bottom.attached.label {
+  top: auto;
+  bottom: 0em;
+  border-radius: 0em 0em 4px 4px;
+}
+
+.fb.top.left.attached.label {
+  width: auto;
+  margin-top: 0em !important;
+  border-radius: 4px 0em 4px 0em;
+}
+
+.fb.top.right.attached.label {
+  width: auto;
+  left: auto;
+  right: 0em;
+  border-radius: 0em 4px 0em 4px;
+}
+
+.fb.bottom.left.attached.label {
+  width: auto;
+  top: auto;
+  bottom: 0em;
+  border-radius: 4px 0em 0em 4px;
+}
+
+.fb.bottom.right.attached.label {
+  top: auto;
+  bottom: 0em;
+  left: auto;
+  right: 0em;
+  width: auto;
+  border-radius: 4px 0em 4px 0em;
+}
+
+/*-------------------
+    Corner Label
+--------------------*/
+
+.fb.corner.label {
+  background-color: transparent;
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  z-index: 10;
+  margin: 0em;
+  width: 3em;
+  height: 3em;
+  padding: 0em;
+  text-align: center;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+.fb.corner.label:after {
+  position: absolute;
+  content: "";
+  right: 0em;
+  top: 0em;
+  z-index: -1;
+  width: 0em;
+  height: 0em;
+  border-top: 0em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 3em solid transparent;
+  border-left: 0em solid transparent;
+  border-right-color: inherit;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+
+.fb.corner.label .icon {
+  font-size: 0.875em;
+  margin: 0.5em 0em 0em 1.25em;
+}
+
+.fb.corner.label .text {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0.5em 0em 0em 1em;
+  width: 2.5em;
+  font-size: 0.875em;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Coupling */
+
+.fb.rounded.image > .fb.corner.label,
+.fb.input > .fb.corner.label,
+.fb.segment > .fb.corner.label {
+  overflow: hidden;
+}
+
+.fb.segment > .fb.corner.label {
+  top: -1px;
+  right: -1px;
+}
+
+.fb.segment > .fb.left.corner.label {
+  right: auto;
+  left: -1px;
+}
+
+.fb.input > .fb.corner.label {
+  top: 1px;
+  right: 1px;
+}
+
+.fb.input > .fb.right.corner.label {
+  right: auto;
+  left: 1px;
+}
+
+/* Left Corner */
+
+.fb.left.corner.label,
+.fb.left.corner.label:after {
+  right: auto;
+  left: 0em;
+}
+
+.fb.left.corner.label:after {
+  border-top: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-bottom: 0em solid transparent;
+  border-left: 0em solid transparent;
+  border-top-color: inherit;
+}
+
+.fb.left.corner.label .icon {
+  margin: 0.5em 0em 0em -1em;
+}
+
+.fb.left.corner.label .text {
+  margin: 0.5em 0em 0em -1em;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Hover */
+
+.fb.corner.label:hover {
+  background-color: transparent;
+}
+
+/*-------------------
+       Fluid
+--------------------*/
+
+.fb.label.fluid,
+.fb.fluid.labels > .label {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*-------------------
+       Inverted
+--------------------*/
+
+.fb.inverted.labels .label,
+.fb.inverted.label {
+  color: #FFFFFF !important;
+}
+
+/*-------------------
+       Colors
+--------------------*/
+
+/*--- Black ---*/
+
+.fb.black.labels .label,
+.fb.black.label {
+  background-color: #5C6166 !important;
+  border-color: #5C6166 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .black.label:before,
+.fb.black.labels .label:before,
+.fb.black.label:before {
+  background-color: #5C6166 !important;
+}
+
+/* Hover */
+
+a.fb.black.labels .label:hover,
+a.fb.black.label:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+.fb.labels a.black.label:hover:before,
+.fb.black.labels a.label:hover:before,
+a.fb.black.label:hover:before {
+  background-color: #333333 !important;
+}
+
+/* Corner */
+
+.fb.black.corner.label,
+.fb.black.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+
+.fb.black.ribbon.label {
+  border-color: #333333 !important;
+}
+
+/*--- Green ---*/
+
+.fb.green.labels .label,
+.fb.green.label {
+  background-color: #A1CF64 !important;
+  border-color: #A1CF64 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .green.label:before,
+.fb.green.labels .label:before,
+.fb.green.label:before {
+  background-color: #A1CF64 !important;
+}
+
+/* Hover */
+
+a.fb.green.labels .label:hover,
+a.fb.green.label:hover {
+  background-color: #89B84C !important;
+  border-color: #89B84C !important;
+}
+
+.fb.labels a.green.label:hover:before,
+.fb.green.labels a.label:hover:before,
+a.fb.green.label:hover:before {
+  background-color: #89B84C !important;
+}
+
+/* Corner */
+
+.fb.green.corner.label,
+.fb.green.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+
+.fb.green.ribbon.label {
+  border-color: #89B84C !important;
+}
+
+/*--- Red ---*/
+
+.fb.red.labels .label,
+.fb.red.label {
+  background-color: #D95C5C !important;
+  border-color: #D95C5C !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .red.label:before,
+.fb.red.labels .label:before,
+.fb.red.label:before {
+  background-color: #D95C5C !important;
+}
+
+/* Corner */
+
+.fb.red.corner.label,
+.fb.red.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Hover */
+
+a.fb.red.labels .label:hover,
+a.fb.red.label:hover {
+  background-color: #DE3859 !important;
+  border-color: #DE3859 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels a.red.label:hover:before,
+.fb.red.labels a.label:hover:before,
+a.fb.red.label:hover:before {
+  background-color: #DE3859 !important;
+}
+
+/* Ribbon */
+
+.fb.red.ribbon.label {
+  border-color: #DE3859 !important;
+}
+
+/*--- Blue ---*/
+
+.fb.blue.labels .label,
+.fb.blue.label {
+  background-color: #6ECFF5 !important;
+  border-color: #6ECFF5 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .blue.label:before,
+.fb.blue.labels .label:before,
+.fb.blue.label:before {
+  background-color: #6ECFF5 !important;
+}
+
+/* Hover */
+
+a.fb.blue.labels .label:hover,
+.fb.blue.labels a.label:hover,
+a.fb.blue.label:hover {
+  background-color: #1AB8F3 !important;
+  border-color: #1AB8F3 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels a.blue.label:hover:before,
+.fb.blue.labels a.label:hover:before,
+a.fb.blue.label:hover:before {
+  background-color: #1AB8F3 !important;
+}
+
+/* Corner */
+
+.fb.blue.corner.label,
+.fb.blue.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+
+.fb.blue.ribbon.label {
+  border-color: #1AB8F3 !important;
+}
+
+/*--- Purple ---*/
+
+.fb.purple.labels .label,
+.fb.purple.label {
+  background-color: #564F8A !important;
+  border-color: #564F8A !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .purple.label:before,
+.fb.purple.labels .label:before,
+.fb.purple.label:before {
+  background-color: #564F8A !important;
+}
+
+/* Hover */
+
+a.fb.purple.labels .label:hover,
+.fb.purple.labels a.label:hover,
+a.fb.purple.label:hover {
+  background-color: #3E3773 !important;
+  border-color: #3E3773 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels a.purple.label:hover:before,
+.fb.purple.labels a.label:hover:before,
+a.fb.purple.label:hover:before {
+  background-color: #3E3773 !important;
+}
+
+/* Corner */
+
+.fb.purple.corner.label,
+.fb.purple.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+
+.fb.purple.ribbon.label {
+  border-color: #3E3773 !important;
+}
+
+/*--- Orange ---*/
+
+.fb.orange.labels .label,
+.fb.orange.label {
+  background-color: #F05940 !important;
+  border-color: #F05940 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .orange.label:before,
+.fb.orange.labels .label:before,
+.fb.orange.label:before {
+  background-color: #F05940 !important;
+}
+
+/* Hover */
+
+a.fb.orange.labels .label:hover,
+.fb.orange.labels a.label:hover,
+a.fb.orange.label:hover {
+  background-color: #FF4121 !important;
+  border-color: #FF4121 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels a.orange.label:hover:before,
+.fb.orange.labels a.label:hover:before,
+a.fb.orange.label:hover:before {
+  background-color: #FF4121 !important;
+}
+
+/* Corner */
+
+.fb.orange.corner.label,
+.fb.orange.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+
+.fb.orange.ribbon.label {
+  border-color: #FF4121 !important;
+}
+
+/*--- Teal ---*/
+
+.fb.teal.labels .label,
+.fb.teal.label {
+  background-color: #00B5AD !important;
+  border-color: #00B5AD !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels .teal.label:before,
+.fb.teal.labels .label:before,
+.fb.teal.label:before {
+  background-color: #00B5AD !important;
+}
+
+/* Hover */
+
+a.fb.teal.labels .label:hover,
+.fb.teal.labels a.label:hover,
+a.fb.teal.label:hover {
+  background-color: #009A93 !important;
+  border-color: #009A93 !important;
+  color: #FFFFFF !important;
+}
+
+.fb.labels a.teal.label:hover:before,
+.fb.teal.labels a.label:hover:before,
+a.fb.teal.label:hover:before {
+  background-color: #009A93 !important;
+}
+
+/* Corner */
+
+.fb.teal.corner.label,
+.fb.teal.corner.label:hover {
+  background-color: transparent !important;
+}
+
+/* Ribbon */
+
+.fb.teal.ribbon.label {
+  border-color: #009A93 !important;
+}
+
+/*-------------------
+     Horizontal
+--------------------*/
+
+.fb.horizontal.labels .label,
+.fb.horizontal.label {
+  margin: -0.125em 0.5em -0.125em 0em;
+  padding: 0.35em 1em;
+  min-width: 6em;
+  text-align: center;
+}
+
+/*-------------------
+       Circular
+--------------------*/
+
+.fb.circular.labels .label,
+.fb.circular.label {
+  min-height: 1em;
+  max-height: 2em;
+  padding: 0.5em !important;
+  line-height: 1em;
+  text-align: center;
+  border-radius: 500rem;
+}
+
+/*-------------------
+       Pointing
+--------------------*/
+
+.fb.pointing.label {
+  position: relative;
+}
+
+.fb.attached.pointing.label {
+  position: absolute;
+}
+
+.fb.pointing.label:before {
+  position: absolute;
+  content: "";
+  width: 0.6em;
+  height: 0.6em;
+  background-image: none;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  z-index: 2;
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+
+/*--- Above ---*/
+
+.fb.pointing.label:before {
+  background-color: #E8E8E8;
+}
+
+.fb.pointing.label,
+.fb.pointing.above.label {
+  margin-top: 1em;
+}
+
+.fb.pointing.label:before,
+.fb.pointing.above.label:before {
+  margin-left: -0.3em;
+  top: -0.3em;
+  left: 50%;
+}
+
+/*--- Below ---*/
+
+.fb.pointing.below.label {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+.fb.pointing.below.label:before {
+  margin-left: -0.3em;
+  top: auto;
+  right: auto;
+  bottom: -0.3em;
+  left: 50%;
+}
+
+/*--- Left ---*/
+
+.fb.pointing.left.label {
+  margin-top: 0em;
+  margin-left: 1em;
+}
+
+.fb.pointing.left.label:before {
+  margin-top: -0.3em;
+  bottom: auto;
+  right: auto;
+  top: 50%;
+  left: 0em;
+}
+
+/*--- Right ---*/
+
+.fb.pointing.right.label {
+  margin-top: 0em;
+  margin-right: 1em;
+}
+
+.fb.pointing.right.label:before {
+  margin-top: -0.3em;
+  right: -0.3em;
+  top: 50%;
+  bottom: auto;
+  left: auto;
+}
+
+/*------------------
+   Floating Label
+-------------------*/
+
+.fb.floating.label {
+  position: absolute;
+  z-index: 100;
+  top: -1em;
+  left: 100%;
+  margin: 0em 0em 0em -1.5em !important;
+}
+
+/*-------------------
+        Sizes
+--------------------*/
+
+.fb.small.labels .label,
+.fb.small.label {
+  font-size: 0.75rem;
+}
+
+.fb.label {
+  font-size: 0.8125rem;
+}
+
+.fb.large.labels .label,
+.fb.large.label {
+  font-size: 0.875rem;
+}
+
+.fb.huge.labels .label,
+.fb.huge.label {
+  font-size: 1rem;
+}

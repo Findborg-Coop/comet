@@ -1,0 +1,10 @@
+#headernav-strip{
+	min-height: 50px;
+	margin-bottom:3px;
+	box-shadow: 0 1px #D8D8D8;
+}
+#headernav-strip .navbar{
+	background:transparent;
+	margin-bottom:0px;
+	border:none;
+}

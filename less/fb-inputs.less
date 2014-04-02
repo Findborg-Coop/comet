@@ -1,0 +1,312 @@
+/*
+ * # Semantic - Input
+ * http://github.com/jlukic/semantic-ui/
+ *
+ *
+ * Copyright 2013 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+           Standard
+*******************************/
+
+/*--------------------
+        Inputs
+---------------------*/
+
+.fb.input {
+  display: inline-block;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fb.input input {
+  width: 100%;
+  font-family: "Helvetica Neue", "Helvetica", Arial;
+  margin: 0em;
+  padding: 0.85em 1.2em;
+  font-size: 0.875em;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.3125em;
+  -webkit-transition: background-color 0.3s ease-out,
+    -webkit-box-shadow 0.2s ease,
+    border-color 0.2s ease;
+  transition: background-color 0.3s ease-out,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*--------------------
+      Placeholder
+---------------------*/
+
+/* browsers require these rules separate */
+
+.fb.input::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.fb.input::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+/*******************************
+            States
+*******************************/
+
+/*--------------------
+        Active
+---------------------*/
+
+.fb.input input:active,
+.fb.input.down input {
+  border-color: rgba(0, 0, 0, 0.3);
+  background-color: #FAFAFA;
+}
+
+/*--------------------
+        Loading
+---------------------*/
+
+.fb.loading.input > .icon {
+  background: url(../images/loader-mini.gif) no-repeat 50% 50%;
+}
+
+.fb.loading.input > .icon:before,
+.fb.loading.input > .icon:after {
+  display: none;
+}
+
+/*--------------------
+        Focus
+---------------------*/
+
+.fb.input.focus input,
+.fb.input input:focus {
+  border-color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.fb.input.focus input input::-webkit-input-placeholder,
+.fb.input input:focus input::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.fb.input.focus input input::-moz-placeholder,
+.fb.input input:focus input::-moz-placeholder {
+  color: #AAAAAA;
+}
+
+/*--------------------
+        Error
+---------------------*/
+
+.fb.input.error input {
+  background-color: #FFFAFA;
+  border-color: #E7BEBE;
+  color: #D95C5C;
+}
+
+/* Error Placeholder */
+
+.fb.input.error input ::-webkit-input-placeholder {
+  color: rgba(255, 80, 80, 0.4);
+}
+
+.fb.input.error input ::-moz-placeholder {
+  color: rgba(255, 80, 80, 0.4);
+}
+
+.fb.input.error input :focus::-webkit-input-placeholder {
+  color: rgba(255, 80, 80, 0.7);
+}
+
+.fb.input.error input :focus::-moz-placeholder {
+  color: rgba(255, 80, 80, 0.7);
+}
+
+/*******************************
+           Variations
+*******************************/
+
+/*--------------------
+      Transparent
+---------------------*/
+
+.fb.transparent.input input {
+  border: none;
+  background-color: transparent;
+}
+
+/*--------------------
+         Icon
+---------------------*/
+
+.fb.icon.input > .icon {
+  cursor: default;
+  position: absolute;
+  opacity: 0.5;
+  top: 0px;
+  right: 0px;
+  margin: 0em;
+  width: 2.6em;
+  height: 100%;
+  padding-top: 0.82em;
+  text-align: center;
+  border-radius: 0em 0.3125em 0.3125em 0em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+.fb.icon.input > .link.icon {
+  cursor: pointer;
+}
+
+.fb.icon.input input {
+  padding-right: 3em !important;
+}
+
+.fb.icon.input > .circular.icon {
+  top: 0.35em;
+  right: 0.5em;
+}
+
+/* Left Side */
+
+.fb.left.icon.input > .icon {
+  right: auto;
+  left: 1px;
+  border-radius: 0.3125em 0em 0em 0.3125em;
+}
+
+.fb.left.icon.input > .circular.icon {
+  right: auto;
+  left: 0.5em;
+}
+
+.fb.left.icon.input > input {
+  padding-left: 3em !important;
+  padding-right: 1.2em !important;
+}
+
+/* Focus */
+
+.fb.icon.input > input:focus ~ .icon {
+  opacity: 1;
+}
+
+/*--------------------
+        Labeled
+---------------------*/
+
+.fb.labeled.input .corner.label {
+  font-size: 0.7em;
+  border-top-right-radius: 0.3125em;
+}
+
+.fb.labeled.input input {
+  padding-right: 2.5em !important;
+}
+
+/* Spacing with corner label */
+
+.fb.labeled.icon.input:not(.left) > input {
+  padding-right: 3.25em !important;
+}
+
+.fb.labeled.icon.input:not(.left) > .icon {
+  margin-right: 1.25em;
+}
+
+/*--------------------
+        Action
+---------------------*/
+
+.fb.action.input {
+  display: table;
+}
+
+.fb.action.input > input {
+  display: table-cell;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-right: none;
+}
+
+.fb.action.input > .button,
+.fb.action.input > .buttons {
+  display: table-cell;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  white-space: nowrap;
+}
+
+.fb.action.input > .button > .icon,
+.fb.action.input > .buttons > .button > .icon {
+  display: inline;
+  vertical-align: top;
+}
+
+.fb.fluid.action.input {
+  display: table;
+  width: 100%;
+}
+
+.fb.fluid.action.input > .button {
+  width: 0.01%;
+}
+
+/*--------------------
+        Fluid
+---------------------*/
+
+.fb.fluid.input {
+  display: block;
+}
+
+/*--------------------
+        Size
+---------------------*/
+
+.fb.mini.input {
+  font-size: 0.8125em;
+}
+
+.fb.small.input {
+  font-size: 0.875em;
+}
+
+.fb.input {
+  font-size: 1em;
+}
+
+.fb.large.input {
+  font-size: 1.125em;
+}
+
+.fb.big.input {
+  font-size: 1.25em;
+}
+
+.fb.huge.input {
+  font-size: 1.375em;
+}
+
+.fb.massive.input {
+  font-size: 1.5em;
+}

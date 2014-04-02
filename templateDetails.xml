@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>comet</name>
+	<version>1.0</version>
+	<creationDate>4/30/2012</creationDate>
+	<author>FINDBORG Corporation</author>
+	<authorEmail>fitzflood@gmail.com</authorEmail>
+	<copyright>Copyright (C) 2005 - 2013 FINDBORG Corporation. All rights reserved.</copyright>
+	<description><![CDATA[
+	<div class="sp-template-desc">
+	
+	<h1>Findborg Comet</h1>
+	Joomla 3.0 Template Framework by <a target="_blank" href="http://www.findborg.com">www.findborg.com</a>.
+	
+	<h3>This Is Base Template</h3>
+	Premium and powerfull Joomla templates and Extensions.<br /><a href="http://www.findborg.com" target="_blank">http://www.findborg.com</a><br /><br />See a live demo of all templates created by Findborg.<br /><a href="http://demo.findborg.com" target="_blank">http://demo.findborg.com</a><br />
+	
+	<h2>Overview of the Comet Framework</h2>
+	Imagine yourself dwelling in a world of super fast website building capacity. You just see it fully grown up even before you feel that you have just started building it! The Comet Framework is here to make you feel the difference in the world of website designing. This product has been developed by Findborg, your trusted friend in the Joomla world, for an easy accessibility to the way of building Joomla based websites with hundreds of easy tasking features.
+	<br />
+	<br />
+	What does the Comet Framework intend to do? Well, it is pretty simple - it will make your experience of creating website much smoother than ever before. Comet Framework aims to make many of the time consuming activities that you have to deal with when creating a Joomla based site and package them right up at your finger tips,  so that you can create highly sophisticated websites in less time.
+	</div>
+	]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	<positions>
+		<position>navsearch</position>
+		<position>subnav</position>
+		<position>code</position>
+		<position>debug</position>
+		<position>drawer</position>
+		<position>top-a</position>
+		<position>top-b</position>
+		<position>top-c</position>
+		<position>top-d</position>
+		<position>top-e</position>
+		<position>top-f</position>
+		<position>header-a</position>
+		<position>header-b</position>
+		<position>header-c</position>
+		<position>header-d</position>
+		<position>header-e</position>
+		<position>header-f</position>
+		<position>showcase-a</position>
+		<position>showcase-b</position>
+		<position>showcase-c</position>
+		<position>showcase-d</position>
+		<position>showcase-e</position>
+		<position>showcase-f</position>
+		<position>breadcrumb</position>
+		<position>utility-a</position>
+		<position>utility-b</position>
+		<position>utility-c</position>
+		<position>utility-d</position>
+		<position>utility-e</position>
+		<position>utility-f</position>
+		<position>feature-a</position>
+		<position>feature-b</position>
+		<position>feature-c</position>
+		<position>feature-d</position>
+		<position>feature-e</position>
+		<position>feature-f</position>
+		<position>maintop-a</position>
+        <position>maintop-b</position>
+        <position>maintop-c</position>
+        <position>maintop-d</position>
+        <position>maintop-e</position>
+        <position>maintop-f</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position>sidebar-c</position>
+        <position>content-top-a</position>
+        <position>content-top-b</position>
+        <position>content-top-c</position>
+        <position>content-bottom-a</position>
+        <position>content-bottom-b</position>
+        <position>content-bottom-c</position>
+        <position>fullwidth</position>
+        <position>mainbottom-a</position>
+        <position>mainbottom-b</position>
+        <position>mainbottom-c</position>
+        <position>mainbottom-d</position>
+        <position>mainbottom-e</position>
+        <position>mainbottom-f</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>bottom-c</position>
+        <position>bottom-d</position>
+        <position>bottom-e</position>
+        <position>bottom-f</position>
+        <position>footer-a</position>
+        <position>footer-b</position>
+        <position>footer-c</position>
+        <position>footer-d</position>
+        <position>footer-e</position>
+        <position>footer-f</position>
+		<position>copyright-a</position>
+        <position>copyright-b</position>
+        <position>copyright-c</position>
+        <position>copyright-d</position>
+        <position>copyright-e</position>
+        <position>copyright-f</position>
+        <position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_comet.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_comet.sys.ini</language>
+	</languages>
+	<config>
+		
+		<fields name="params">
+			<fieldset name="style" label="Style">
+					
+				<field name="note00" type="note" class="alert alert-info" label="Main Template Style" description="Here you can edit the template stuff" />
+				<field name="note02" type="note" class="alert" label="Top Section Styles" description="" />
+					<field name="topouter_background" class="" type="color" default="#ffffff"
+					label="Top Outer Color"
+					description="Change the color of the outer wrap of the top section" />
+					<field name="topmod_background" class="" type="color" default="#ffffff"
+					label="Top Mod Color"
+					description="Change background color of Top module area." />
+				<field name="topouter_marginleft" type="text" default="auto" label="Top Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="topouter_marginright" type="text" default="auto" label="Top Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="topouter_margintop" type="text" default="0px" label="Top Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="topouter_marginbottom" type="text" default="0px" label="Top Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="topouter_maxwidth" type="text" default="960px" label="Top Outer Max Width" description="Enter your max width commands" />
+				<field name="topmod_maxwidth" type="text" default="960px" label="Top Mod Max Width" description="Enter your max width commands" />
+				<field name="top_Textcolor" class="" type="color" default="#444"
+					label="Top Text Color" />
+				<field name="topmod_marginleft" type="text" default="auto" label="Top Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="topmod_marginright" type="text" default="auto" label="Top Mod Margin-Right" description="Enter your right margin commands" />
+	      		<field name="note19" type="note" class="alert" label="Navigation Section Styles" description="" />
+<field name="navouter_background" class="" type="color" default="#ffffff"
+					label="Navigation Outer Color"
+					description="Change the color of the outer wrap of the navigation section" />
+					<field name="navmod_background" class="" type="color" default="#ffffff"
+					label="Navigation Mod Color"
+					description="Change background color of Navigation module area." />
+				<field name="navouter_marginleft" type="text" default="auto" label="Navigation Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="navouter_marginright" type="text" default="auto" label="Navigation Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="navouter_margintop" type="text" default="0px" label="Navigation Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="navouter_marginbottom" type="text" default="0px" label="Navigation Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="navouter_maxwidth" type="text" default="960px" label="Navigation Outer Max Width" description="Enter your max width commands" />
+				<field name="navmod_maxwidth" type="text" default="960px" label="Navigation Mod Max Width" description="Enter your max width commands" />
+				<field name="nav_Textcolor" class="" type="color" default="#444"
+					label="Navigation Text Color" />
+				<field name="navmod_marginleft" type="text" default="auto" label="Navigation Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="navmod_marginright" type="text" default="auto" label="Navigation Mod Margin-Right" description="Enter your right margin commands" />
+
+				<field name="note03" type="note" class="alert" label="Header Section Styles" description="" />
+					<field name="headouter_background" class="" type="color" default="#ffffff"
+					label="Header Outer Color"
+					description="Change the color of the outer wrap of the header section" />
+					<field name="headmod_background" class="" type="color" default="#ffffff"
+					label="Header Mod Color"
+					description="Change background color of Header module area." />
+				<field name="headouter_marginleft" type="text" default="auto" label="Header Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="headouter_marginright" type="text" default="auto" label="Header Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="headouter_margintop" type="text" default="0px" label="Header Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="headouter_marginbottom" type="text" default="0px" label="Header Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="headouter_maxwidth" type="text" default="960px" label="Head Outer Max Width" description="Enter your max width commands" />
+				<field name="headmod_maxwidth" type="text" default="960px" label="Header Mod Max Width" description="Enter your max width commands" />
+				<field name="head_Textcolor" class="" type="color" default="#444"
+					label="Header Text Color" />
+				<field name="headmod_marginleft" type="text" default="auto" label="Header Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="headmod_marginright" type="text" default="auto" label="Header Mod Margin-Right" description="Enter your right margin commands" />	
+				<field name="note04" type="note" class="alert" label="Sub-Navigation Section Styles" description="" />
+				<field name="subnavouter_background" class="" type="color" default="#ffffff"
+					label="Sub-Navigation Outer Color"
+					description="Change the color of the outer wrap of the sub-navigation section" />
+					<field name="subnavmod_background" class="" type="color" default="#ffffff"
+					label="Sub-Navigation Mod Color"
+					description="Change background color of Sub-Navigation module area." />
+				<field name="subnavouter_marginleft" type="text" default="auto" label="Sub-Navigation Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="subnavouter_marginright" type="text" default="auto" label="Sub-Navigation Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="subnavouter_margintop" type="text" default="0px" label="Sub-Navigation Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="subnavouter_marginbottom" type="text" default="0px" label="Sub-Navigation Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="subnavouter_maxwidth" type="text" default="960px" label="Sub-Navigation Outer Max Width" description="Enter your max width commands" />
+				<field name="subnavmod_maxwidth" type="text" default="960px" label="Sub-Navigation Mod Max Width" description="Enter your max width commands" />
+				<field name="subnav_Textcolor" class="" type="color" default="#444"
+					label="Sub-Navigation Text Color" />
+				<field name="subnavmod_marginleft" type="text" default="auto" label="Sub-Navigation Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="subnavmod_marginright" type="text" default="auto" label="Sub-Navigation Mod Margin-Right" description="Enter your right margin commands" />
+				<field name="note06" type="note" class="alert" label="Drawer Section Styles" description="" />
+				<field name="drawerouter_background" class="" type="color" default="#ffffff"
+					label="Drawer outer background color"
+					description="Drawer Outer Color" />
+				<field name="drawermod_background" class="" type="color" default="#ffffff"
+					label="Drawer Mod Color"
+					description="Choose a color for the module area of the Drawer Section" />
+				<field name="drawerouter_marginleft" type="text" default="auto" label="Drawer Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="drawerouter_marginright" type="text" default="auto" label="Drawer Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="drawerouter_margintop" type="text" default="0px" label="Drawer Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="drawerouter_marginbottom" type="text" default="0px" label="Drawer Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="drawerouter_maxwidth" type="text" default="960px" label="Drawer Outer Max Width" description="Enter your max width commands" />
+				<field name="drawermod_maxwidth" type="text" default="960px" label="Drawer Mod Max Width" description="Enter your max width commands" />
+				<field name="drawer_Textcolor" class="" type="color" default="#444"
+					label="Drawer Text Color" />
+				<field name="drawermod_marginleft" type="text" default="auto" label="Drawer Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="drawermod_marginright" type="text" default="auto" label="Drawer Mod Margin-Right" description="Enter your right margin commands" />
+
+					
+				<field name="note07" type="note" class="alert" label="Showcase Section Styles" description="" />
+				<field name="showouter_background" class="" type="color" default="#ffffff"
+					label="Showcase Outer Color"
+					description="Change the color of the outer wrap of the showcase section" />
+					<field name="showmod_background" class="" type="color" default="#ffffff"
+					label="Top Showcase Color"
+					description="Change background color of Showcase module area." />
+				<field name="showouter_marginleft" type="text" default="auto" label="Showcase Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="showouter_marginright" type="text" default="auto" label="Showcase Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="showouter_margintop" type="text" default="0px" label="Showcase Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="showouter_marginbottom" type="text" default="0px" label="Showcase Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="showouter_maxwidth" type="text" default="960px" label="Showcase Outer Max Width" description="Enter your max width commands" />
+				<field name="showmod_maxwidth" type="text" default="960px" label="Showcase Mod Max Width" description="Enter your max width commands" />
+				<field name="show_Textcolor" class="" type="color" default="#444"
+					label="Showcase Text Color" />
+				<field name="showmod_marginleft" type="text" default="auto" label="Showcase Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="showmod_marginright" type="text" default="auto" label="Showcase Mod Margin-Right" description="Enter your right margin commands" />
+				<field name="note08" type="note" class="alert" label="Utility Section Styles" description="" />
+				<field name="utilityouter_background" class="" type="color" default="#ffffff"
+					label="Utility Outer Color"
+					description="Change the color of the outer wrap of the utility section" />
+					<field name="utilitymod_background" class="" type="color" default="#ffffff"
+					label="Top Utility Color"
+					description="Change background color of Utility module area." />
+				<field name="utilityouter_marginleft" type="text" default="auto" label="Utility Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="utilityouter_marginright" type="text" default="auto" label="Utility Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="utilityouter_margintop" type="text" default="0px" label="Utility Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="utilityouter_marginbottom" type="text" default="0px" label="Utility Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="utilityouter_maxwidth" type="text" default="960px" label="Utility Outer Max Width" description="Enter your max width commands" />
+				<field name="utilitymod_maxwidth" type="text" default="960px" label="Utility Mod Max Width" description="Enter your max width commands" />
+				<field name="utility_Textcolor" class="" type="color" default="#444"
+					label="Utility Text Color" />
+				<field name="utilitymod_marginleft" type="text" default="auto" label="Utility Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="utilitymod_marginright" type="text" default="auto" label="Utility Mod Margin-Right" description="Enter your right margin commands" />
+
+
+				<field name="note09" type="note" class="alert" label="Feature Section Styles" description="" />
+				<field name="featureouter_background" class="" type="color" default="#ffffff"
+					label="Feature Outer Color"
+					description="Change the color of the outer wrap of the feature section" />
+					<field name="featuremod_background" class="" type="color" default="#ffffff"
+					label="Feature Mod Color"
+					description="Change background color of Feature module area." />
+				<field name="featureouter_marginleft" type="text" default="auto" label="Feature Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="featureouter_marginright" type="text" default="auto" label="Feature Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="featureouter_margintop" type="text" default="0px" label="Feature Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="featureouter_marginbottom" type="text" default="0px" label="Feature Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="featureouter_maxwidth" type="text" default="960px" label="Feature Outer Max Width" description="Enter your max width commands" />
+				<field name="featuremod_maxwidth" type="text" default="960px" label="Feature Mod Max Width" description="Enter your max width commands" />
+				<field name="feature_Textcolor" class="" type="color" default="#444"
+					label="Feature Text Color" />
+				<field name="featuremod_marginleft" type="text" default="auto" label="Feature Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="featuremod_marginright" type="text" default="auto" label="Feature Mod Margin-Right" description="Enter your right margin commands" />
+
+
+				<field name="note10" type="note" class="alert" label="Maintop Section Styles" description="" />
+				<field name="mtopouter_background" class="" type="color" default="#ffffff"
+					label="Maintop Outer Color"
+					description="Change the color of the outer wrap of the maintop section" />
+					<field name="mtopmod_background" class="" type="color" default="#ffffff"
+					label="Maintop Mod Color"
+					description="Change background color of Maintop module area." />
+				<field name="mtopouter_marginleft" type="text" default="auto" label="Maintop Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="mtopouter_marginright" type="text" default="auto" label="Maintop Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="mtopouter_margintop" type="text" default="0px" label="Maintop Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="mtopouter_marginbottom" type="text" default="0px" label="Maintop Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="mtopouter_maxwidth" type="text" default="960px" label="Maintop Outer Max Width" description="Enter your max width commands" />
+				<field name="mtopmod_maxwidth" type="text" default="960px" label="Maintop Mod Max Width" description="Enter your max width commands" />
+				<field name="mtop_Textcolor" class="" type="color" default="#444"
+					label="Maintop Text Color" />
+				<field name="mtopmod_marginleft" type="text" default="auto" label="Maintop Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="mtopmod_marginright" type="text" default="auto" label="Maintop Mod Margin-Right" description="Enter your right margin commands" />
+
+
+				<field name="note11" type="note" class="alert" label="Fullwidth Section Styles" description="" />
+				<field name="fwidthouter_background" class="" type="color" default="#ffffff"
+					label="Fullwidth Outer Color"
+					description="Change the color of the outer wrap of the fullwidth section" />
+					<field name="fwidthmod_background" class="" type="color" default="#ffffff"
+					label="Fullwidth Mod Color"
+					description="Change background color of Fullwidth module area." />
+				<field name="fwidthouter_marginleft" type="text" default="auto" label="Fullwidth Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="fwidthouter_marginright" type="text" default="auto" label="Fullwidth Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="fwidthouter_margintop" type="text" default="0px" label="Fullwidth Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="fwidthouter_marginbottom" type="text" default="0px" label="Fullwidth Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="fwidthouter_maxwidth" type="text" default="960px" label="Fullwidth Outer Max Width" description="Enter your max width commands" />
+				<field name="fwidthmod_maxwidth" type="text" default="960px" label="Fullwidth Mod Max Width" description="Enter your max width commands" />
+				<field name="fwidth_Textcolor" class="" type="color" default="#444"
+					label="Fullwidth Text Color" />
+				<field name="fwidthmod_marginleft" type="text" default="auto" label="Fullwidth Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="fwidthmod_marginright" type="text" default="auto" label="Fullwidth Mod Margin-Right" description="Enter your right margin commands" />
+
+
+
+				<field name="note13" type="note" class="alert" label="Mainbottom Section Styles" description="" />
+				<field name="mbottomouter_background" class="" type="color" default="#ffffff"
+					label="Mainbottom Outer Color"
+					description="Change the color of the outer wrap of the mainbottom section" />
+					<field name="mbottommod_background" class="" type="color" default="#ffffff"
+					label="Mainbottom Mod Color"
+					description="Change background color of Mainbottom module area." />
+				<field name="mbottomouter_marginleft" type="text" default="auto" label="Mainbottom Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="mbottomouter_marginright" type="text" default="auto" label="Mainbottom Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="mbottomouter_margintop" type="text" default="0px" label="Mainbottom Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="mbottomouter_marginbottom" type="text" default="0px" label="Mainbottom Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="mbottomouter_maxwidth" type="text" default="960px" label="Mainbottom Outer Max Width" description="Enter your max width commands" />
+				<field name="mbottommod_maxwidth" type="text" default="960px" label="Mainbottom Mod Max Width" description="Enter your max width commands" />
+				<field name="mbottom_Textcolor" class="" type="color" default="#444"
+					label="Mainbottom Text Color" />
+				<field name="mbottommod_marginleft" type="text" default="auto" label="Mainbottom Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="mbottommod_marginright" type="text" default="auto" label="Mainbottom Mod Margin-Right" description="Enter your right margin commands" />
+
+
+				<field name="note14" type="note" class="alert" label="Bottom Section Styles" description="" />
+				<field name="bottomouter_background" class="" type="color" default="#ffffff"
+					label="Bottom Outer Color"
+					description="Change the color of the outer wrap of the bottom section" />
+					<field name="bottommod_background" class="" type="color" default="#ffffff"
+					label="Bottom Mod Color"
+					description="Change background color of Bottom module area." />
+				<field name="bottomouter_marginleft" type="text" default="auto" label="Bottom Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="bottomouter_marginright" type="text" default="auto" label="Bottom Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="bottomouter_margintop" type="text" default="0px" label="Bottom Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="bottomouter_marginbottom" type="text" default="0px" label="Bottom Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="bottomouter_maxwidth" type="text" default="960px" label="Bottom Outer Max Width" description="Enter your max width commands" />
+				<field name="bottommod_maxwidth" type="text" default="960px" label="Bottom Mod Max Width" description="Enter your max width commands" />
+				<field name="bottom_Textcolor" class="" type="color" default="#444"
+					label="Bottom Text Color" />
+				<field name="bottommod_marginleft" type="text" default="auto" label="Bottom Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="bottommod_marginright" type="text" default="auto" label="Bottom Mod Margin-Right" description="Enter your right margin commands" />
+
+
+				<field name="note15" type="note" class="alert" label="Footer Section Styles" description="" />
+				<field name="footerouter_background" class="" type="color" default="#ffffff"
+					label="Footer Outer Color"
+					description="Change the color of the outer wrap of the footer section" />
+					<field name="footermod_background" class="" type="color" default="#ffffff"
+					label="Footer Mod Color"
+					description="Change background color of Footer module area." />
+				<field name="footerouter_marginleft" type="text" default="auto" label="Footer Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="footerouter_marginright" type="text" default="auto" label="Footer Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="footerouter_margintop" type="text" default="0px" label="Footer Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="footerouter_marginbottom" type="text" default="0px" label="Footer Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="footerouter_maxwidth" type="text" default="960px" label="Footer Outer Max Width" description="Enter your max width commands" />
+				<field name="footermod_maxwidth" type="text" default="960px" label="Footer Mod Max Width" description="Enter your max width commands" />
+				<field name="footer_Textcolor" class="" type="color" default="#444"
+					label="Footer Text Color" />
+				<field name="footermod_marginleft" type="text" default="auto" label="Footer Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="footermod_marginright" type="text" default="auto" label="Footer Mod Margin-Right" description="Enter your right margin commands" />
+
+	      		<field name="note16" type="note" class="alert" label="Copyright Section Styles" description="" />
+	      		<field name="copyouter_background" class="" type="color" default="#ffffff"
+					label="Copyright Outer Color"
+					description="Change the color of the outer wrap of the copyright section" />
+					<field name="copymod_background" class="" type="color" default="#ffffff"
+					label="Copyright Mod Color"
+					description="Change background color of Copyright module area." />
+				<field name="copyouter_marginleft" type="text" default="auto" label="Copyright Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="copyouter_marginright" type="text" default="auto" label="Copyright Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="copyouter_margintop" type="text" default="0px" label="Copyright Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="copyouter_marginbottom" type="text" default="0px" label="Copyright Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="copyouter_maxwidth" type="text" default="960px" label="Copyright Outer Max Width" description="Enter your max width commands" />
+				<field name="copymod_maxwidth" type="text" default="960px" label="Copyright Mod Max Width" description="Enter your max width commands" />
+				<field name="copy_Textcolor" class="" type="color" default="#444"
+					label="Copyright Text Color" />
+				<field name="copymod_marginleft" type="text" default="auto" label="Copyright Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="copymod_marginright" type="text" default="auto" label="Copyright Mod Margin-Right" description="Enter your right margin commands" />
+				<field name="note17" type="note" class="alert" label="Breadcrumb Section Styles" description="" />
+				<field name="breadouter_background" class="" type="color" default="#ffffff"
+					label="Breadcrumb Outer Color"
+					description="Change the color of the outer wrap of the breadcrumb section" />
+					<field name="breadmod_background" class="" type="color" default="#ffffff"
+					label="Breadcrumb Mod Color"
+					description="Change background color of Breadcrumb module area." />
+				<field name="breadouter_marginleft" type="text" default="auto" label="Breadcrumb Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="breadouter_marginright" type="text" default="auto" label="Breadcrumb Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="breadouter_margintop" type="text" default="0px" label="Breadcrumb Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="breadouter_marginbottom" type="text" default="0px" label="Breadcrumb Outer Margin-Bottom" description="Enter your bottom margin commands" />
+	      		<field name="breadouter_maxwidth" type="text" default="960px" label="Breadcrumb Outer Max Width" description="Enter your max width commands" />
+				<field name="breadmod_maxwidth" type="text" default="960px" label="Breadcrumb Mod Max Width" description="Enter your max width commands" />
+				<field name="bread_Textcolor" class="" type="color" default="#444"
+					label="Breadcrumb Text Color" />
+				<field name="breadmod_marginleft" type="text" default="auto" label="Breadcrumb Mod Margin-Left" description="Enter your left margin commands" />
+	      		<field name="breadmod_marginright" type="text" default="auto" label="Breadcrumb Mod Margin-Right" description="Enter your right margin commands" />
+	      		
+				
+				<field name="note21" type="note" class="alert" label="LOREMIPSUM" description="LOREMIPSUM_DESC" />
+				<field name="note23" type="note" class="alert alert-success" label="LOREMIPSUM" description="LOREMIPSUM_DESC" />
+				<field name="note24" type="note" class="alert alert-error" label="LOREMIPSUM" description="LOREMIPSUM_DESC" />
+				<field type="spacer" name="myspacer" label="Advanced parameters" />
+				<field type="spacer" Label="&lt;b&gt;Advanced parameters&lt;/b&gt;" />
+				
+	    		<field name="templateColor" class="" type="color" default="#377197"
+					label="TPL_PROTOSTAR_COLOR_LABEL"
+					description="TPL_PROTOSTAR_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="TPL_PROTOSTAR_BACKGROUND_COLOR_LABEL"
+					description="TPL_PROTOSTAR_BACKGROUND_COLOR_DESC" />
+
+				<field name="headerColor" class="" type="color" default="#CFE5F4"
+				validate="color"
+				label="TPL_ISIS_COLOR_HEADER_LABEL"
+				description="TPL_ISIS_COLOR_HEADER_DESC" />
+
+			</fieldset>	
+			
+			
+			<fieldset name="features" label="Features">
+
+				<field type="spacer" name="myspac" label="Advanced parameters" class="lead text-warning"/>
+				<field name="showHeadernav"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show Search Header"
+					description="You Can choose to show the search header"
+				>
+					<option value="1">Show</option>
+					<option value="0">Hide</option>
+				</field>
+				<field name="showCopy"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="Show Copyright"
+					description="You Can choose to show the copyright"
+				>
+					<option value="1">Show</option>
+					<option value="0">Hide</option>
+				</field>
+				<field name="sitetitle"  type="text" default=""
+					label="Copy Text"
+					description="Enter the name of your business"
+					filter="string" />
+
+
+
+			<field name="showtop" type="radio" class="btn-group" default="1" label="Activate GoTo Top" description="Turn the goto top link on or off">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+            <field name="showpagetime" type="radio" class="btn-group" default="1" label="Activate Load Times" description="Turn the page load time notifications on or off">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>    
+                <field type="spacer" name="myspacer" hr="true" />
+                <field name="test1" label ="Test Field" type="editor" width="300" filter="safehtml" />
+              <field name="myeditbox" type="combobox" label="MyEditBox" description="myeditbox_Desc" size="7" />
+              <field name="access" type="accesslevel"
+        label="JFIELD_ACCESS_LABEL"
+        description="JFIELD_ACCESS_DESC"
+        class="span12 small" />
+        <field name="cache_handler"
+        type="cachehandler"
+        default=""
+        label="COM_CONFIG_FIELD_CACHE_HANDLER_LABEL"
+        description="COM_CONFIG_FIELD_CACHE_HANDLER_DESC"
+        filter="word">
+</field>
+<field name="mycalendar" type="calendar" default="5-10-2008" label="Select a date" description="" format="%d-%m-%Y" />
+<field name="mycategory" type="category" extension="com_content" label="Select a category" description="" />
+<field name="show_title" type="checkbox" label="Show title" description="Show the title of the item" value="1" default="0" />
+<field name="toppings" type="checkboxes">
+    <option value="anch">Anchovies</option>
+    <option value="chor">Chorizo</option>
+    <option value="on">Onions</option>
+    <option value="mush">Mushrooms</option>
+</field>
+<field name="style" type="chromestyle"
+        label="COM_MODULES_FIELD_MODULE_STYLE_LABEL"
+        description="COM_MODULES_FIELD_MODULE_STYLE_DESC" />
+        <field name="types" type="contenttype"
+        label="COM_TAGS_FIELD_TYPE_LABEL"
+        description="COM_TAGS_FIELD_TYPE_DESC"
+        multiple="true" />
+        <field name="mylayout" type="componentlayout" extension="com_content" view="article" label="JFIELD_ALT_LAYOUT" useglobal="true" description="JFIELD_ALT_COMPONENT_LAYOUT" />
+        <field name="email" type="email"
+        label="JGLOBAL_EMAIL"
+        description="COM_ADMIN_USER_FIELD_EMAIL_DESC"
+        required="false"
+        size="30"
+        class="inputbox"
+        validate="email" />
+        <field name="myfilevalue" type="file" label="Enter some text" description="Choose an image from your computer with maximum 100KB" size="10" accept="image/*" />
+        <field name="myfile" type="filelist" default="" label="Select a file" description="" directory="administrator" filter="" exclude="" stripext="" />
+        <field name="myfolder" type="folderlist" default="" label="Select a folder" directory="administrator" filter="" exclude="" stripext="" />
+        <field name="mylistvalue" type="groupedlist" default="" label="Select an option" description="">
+  <group label="Group 1">
+    <option value="0">Option 1</option>
+    <option value="1">Option 2</option>
+  </group>
+  <group label="Group 2">
+    <option value="3">Option 3</option>
+    <option value="4">Option 4</option>
+  </group>
+  <option value="5">Option 5</option>
+  <option value="6">Option 6</option>
+</field>
+<field name="header_tag" type="headertag"
+        label="COM_MODULES_FIELD_HEADER_TAG_LABEL"
+        description="COM_MODULES_FIELD_HEADER_TAG_DESC" 
+        default="h3"/>
+        <field name="myhelpsite" type="helpsite" default="" label="Select a help site" description="" />
+        <field name="mysecretvariable" type="hidden" default="" />
+			<field name="myimage" type="imagelist" default="" label="Select an image" description="" directory="images" exclude="" stripext="" class="span12"/>
+			<field name="myintegervalue" type="integer" default="Some integer" label="Choose an integer" description="" first="1" last="10" step="1" />
+<field name="mylivalue" type="list" default="" label="Select an option" description="">
+  <option value="0">Option 1</option>
+  <option value="1">Option 2</option>
+</field>
+<field name="myimage" type="media" directory="stories" />
+<field name="mymodulelayout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+<field name="ordering" type="moduleorder"
+        label="JFIELD_ORDERING_LABEL" 
+        description="JFIELD_ORDERING_DESC" />
+        <field name="module_tag" type="moduletag"
+        label="COM_MODULES_FIELD_MODULE_TAG_LABEL"
+        description="COM_MODULES_FIELD_MODULE_TAG_DESC"
+        default="div" />
+        <field name="editor" type="plugins" folder="editors"
+        description="COM_USERS_USER_FIELD_EDITOR_DESC"
+        label="COM_USERS_USER_FIELD_EDITOR_LABEL" >
+        <option value="">JOPTION_USE_DEFAULT</option>
+</field>
+<field name="myradiovalue" type="radio" default="0" label="Select an option" description="">
+  <option value="0">1</option>
+  <option value="1">2</option>
+</field>
+<field name="mytextvalue" type="url" default="http://www.example.com" label="Enter a URL" description="" size="10" />
+<field name="guest_usergroup" type="usergroup"
+        label="COM_USERS_CONFIG_FIELD_GUEST_USER_GROUP_LABEL"
+        description="COM_USERS_CONFIG_FIELD_GUEST_USER_GROUP_DESC" default="1" />
+        <field name="mymenuitem" type="menuitem" default="45" label="Select a menu item" description="Select a menu item" />
+			</fieldset>
+
+			<fieldset name="build" label="Layout">
+				<field name="note21" type="note" class="alert alert-success" label="LOREMIPSUM" description="Top Layout Options" />
+				<field name="note22" type="note" class="alert alert-success" label="LOREMIPSUM" description="Header Layout Options" />
+				<field name="note23" type="note" class="alert alert-success" label="LOREMIPSUM" description="Utility Layout Options" />
+				<field name="note24" type="note" class="alert alert-success" label="LOREMIPSUM" description="Showcase Layout Options" />
+				<field name="note25" type="note" class="alert alert-success" label="LOREMIPSUM" description="Feature Layout Options" />
+				<field name="note26" type="note" class="alert alert-success" label="LOREMIPSUM" description="Utility Layout Options" />
+				<field name="note27" type="note" class="alert alert-success" label="LOREMIPSUM" description="Maintop Layout Options" />
+			</fieldset>
+			<fieldset name="menu" label="Menus">
+
+			</fieldset>
+
+
+			<fieldset name="body" label="Main Body">
+				<field name="note50" type="note" class="alert alert-info" label="Main Content Template Style" description="Here you can edit the main content template stuff" />
+				<field name="note51" type="note" class="alert alert-info" label="Main Content Sidebar Width and Color Controls" description="" />
+				<field name="leftcolumnWidth" type="text" default="210" label="Sidebar-A Width" description="Set a fixed width of sidebar" />
+				<field name="leftcolumnColor" type="color" default="#f9f9f9" label="Sidebar-A Color" description="Change the color of the left Column called sidebar-a"/>
+				
+	      		<field name="rightcolumnWidth" type="text" default="210" label="Sidebar-B Width" description="Set a fixed width of sidebar" />
+	      		<field name="rightcolumnColor" type="color" default="#f2f2f2" label="Sidebar-B Column Color" description="Change the color of the right Column called sidebar-b"/>
+				<field type="spacer" name="myspacer" hr="true" class="span12 show"/>
+				<field type="spacer" name="myspacer" label="&lt;hr/&gt;More parameters" hr="true"/>
+	        	
+				<field name="mainouterColor" class="" type="color" default="#FFFFFF" validate="color"	label="Mainbody Surround Color"
+				description="Put an outer color on the surrounding div of mainbody" />
+				<field name="maincontentColor" class="" type="color" default="#ffffff"
+					label="Main Content Area Background"
+					description="Background color of the Main Content Area" />
+
+				<field name="maincontent_marginleft" type="text" default="auto" label="MainContent Outer Margin-Left" description="Enter your left margin commands" />
+	      		<field name="maincontent_marginright" type="text" default="auto" label="MainContent Outer Margin-Right" description="Enter your right margin commands" />
+				<field name="maincontentouter_margintop" type="text" default="0px" label="MainContent Outer Margin-Top" description="Enter your top margin commands" />
+				<field name="maincontentouter_marginbottom" type="text" default="0px" label="MainContent Outer Margin-Bottom" description="Enter your bottom margin commands" />
+				<field name="maincontentouter_paddingtop" type="text" default="0px" label="MainContent Outer Pad-Top" description="Enter your top padding commands" />
+				<field name="maincontentouter_paddingbottom" type="text" default="0px" label="MainContent Outer Pad-Bottom" description="Enter your bottom padding commands" />
+	      		<field name="maincontentouter_maxwidth" type="text" default="960px" label="MainContent Outer Max Width" description="Enter your max width commands" />
+				<field name="maincontentmod_maxwidth" type="text" default="960px" label="MainContent Mod Max Width" description="Enter your max width commands" />
+				<field name="maincontentmod_marginleft" type="text" default="auto" label="Main Content Inner Margin-Left" description="Enter your left margin commands" />
+	      		<field name="maincontentmod_marginright" type="text" default="auto" label="Main Content Inner Margin-Right" description="Enter your right margin commands" />
+				<field name="maincontent_Textcolor" class="" type="color" default="#444"
+					label="Main Content Text Color" />
+				
+			</fieldset>
+			
+
+
+
+			<fieldset name="advanced">
+				
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="Page Background Color"
+					description="Set a page background for the entire page" />
+				
+				
+
+
+
+
+<field name="templateColor" class="" type="color" default="#377197"
+					label="TPL_PROTOSTAR_COLOR_LABEL"
+					description="TPL_PROTOSTAR_COLOR_DESC" />
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_PROTOSTAR_LOGO_LABEL"
+					description="TPL_PROTOSTAR_LOGO_DESC" />
+					
+				
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />
+
+				<field name="googleFont"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="TPL_PROTOSTAR_FONT_LABEL"
+					description="TPL_PROTOSTAR_FONT_DESC"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="TPL_PROTOSTAR_FONT_NAME_LABEL"
+					description="TPL_PROTOSTAR_FONT_NAME_DESC" />
+
+				<field name="fluidContainer"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="TPL_PROTOSTAR_FLUID_LABEL"
+					description="TPL_PROTOSTAR_FLUID_DESC"
+				>
+					<option value="0">TPL_PROTOSTAR_STATIC</option>
+					<option value="1">TPL_PROTOSTAR_FLUID</option>
+				</field>
+			</fieldset>
+			<fieldset name="tab-mobile" label="Pad-Mobile">
+				 <field name="note01" type="note" class="alert" label="LOREMIPSUM" description="&lt;h2&gt;Tablet and Mobil Phone Settings&lt;/h2&gt;
+            &lt;p&gt;The Style Settings panel for Findborg Comet based themes allows and administration interface providing several options for configuring the main built in stylistic aspects of the template.&lt;/p&gt;
+" />
+			<field name="templateWidth" type="text" default="1280px" Label="Whole template width" />
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

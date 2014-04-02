@@ -1,0 +1,720 @@
+// Lists
+
+.list {
+  padding-left: 2rem;
+}
+// Simple unbulleted list
+.list-simple {
+  list-style: none;
+  padding-left: 0;
+}
+
+// Inline list
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  li {
+    display: inline;
+    white-space: nowrap;
+  }
+}
+/*
+ * # Semantic List - Flat
+ * http://github.com/jlukic/semantic-ui/
+ *
+ *
+ * Copyright 2013 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ * Released: April 26 2013
+ */
+
+/*******************************
+            List
+*******************************/
+
+ul.fb.list,
+ol.fb.list,
+.fb.list {
+  list-style-type: none;
+  margin: 1em 0em;
+  padding: 0em;
+}
+
+ul.fb.list ul,
+ol.fb.list ol,
+.fb.list .list {
+  margin: 0em;
+  padding: 0.5em 0em 0.5em 1em;
+}
+
+ul.fb.list:first-child,
+ol.fb.list:first-child,
+.fb.list:first-child {
+  margin-top: 0em;
+}
+
+ul.fb.list:last-child,
+ol.fb.list:last-child,
+.fb.list:last-child {
+  margin-bottom: 0em;
+}
+
+/*******************************
+            Content
+*******************************/
+
+/* List Item */
+
+ul.fb.list li,
+ol.fb.list li,
+.fb.list .item {
+  display: list-item;
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0.3em 0em;
+  line-height: 1.2em;
+}
+
+.fb.list .item:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Sub-List */
+
+.fb.list .list {
+  clear: both;
+}
+
+/* Icon */
+
+.fb.list .item > .icon {
+  display: block;
+  float: left;
+  margin: 0em 1em 0em 0em;
+  padding: 0.1em 0em 0em 0em;
+}
+
+.fb.list .item > .icon:only-child {
+  display: inline-block;
+}
+
+.fb.horizontal.list .item > .icon {
+  margin: 0em;
+  padding: 0em 0.25em 0em 0em;
+}
+
+.fb.horizontal.list .item > .icon,
+.fb.horizontal.list .item > .icon + .content {
+  float: none;
+  display: inline-block;
+}
+
+/* Image */
+
+.fb.list .item > img {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+/* Content */
+
+.fb.list .item > .content {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.2em;
+}
+
+.fb.list .item > .icon + .content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* Link */
+
+.fb.list a {
+  cursor: pointer;
+}
+
+.fb.list a .icon {
+  color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+/* Header */
+
+.fb.list .header {
+  font-weight: bold;
+}
+
+.fb.list .description {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Floated Content */
+
+.fb.list .item > .left.floated {
+  margin-right: 1em;
+  float: left;
+}
+
+.fb.list .item > .right.floated {
+  margin-left: 1em;
+  float: right;
+}
+
+/*******************************
+            Types
+*******************************/
+
+/*-------------------
+      Horizontal
+--------------------*/
+
+.fb.horizontal.list {
+  display: inline-block;
+  font-size: 0em;
+}
+
+.fb.horizontal.list > .item {
+  display: inline-block;
+  margin-left: 1em;
+  font-size: 1rem;
+}
+
+.fb.horizontal.list > .item:first-child {
+  margin-left: 0em;
+}
+
+.fb.horizontal.list .list {
+  padding-left: 0em;
+  padding-bottom: 0em;
+}
+
+/*******************************
+             States
+*******************************/
+
+/*-------------------
+        Hover
+--------------------*/
+
+.fb.list a:hover .icon {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/*******************************
+           Variations
+*******************************/
+
+/*-------------------
+       Inverted
+--------------------*/
+
+.fb.inverted.list a .icon {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fb.inverted.list .description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fb.inverted.link.list .item {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/*-------------------
+       Link
+--------------------*/
+
+.fb.link.list .item {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.fb.link.list a.item,
+.fb.link.list .item a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb.link.list a.item:hover,
+.fb.link.list .item a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.fb.link.list a.item:active,
+.fb.link.list .item a:active {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.fb.link.list a.active.item,
+.fb.link.list .active.item a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Inverted */
+
+.fb.inverted.link.list a.item,
+.fb.inverted.link.list .item a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fb.inverted.link.list a.item:hover,
+.fb.inverted.link.list .item a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fb.inverted.link.list a.item:active,
+.fb.inverted.link.list .item a:active {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fb.inverted.link.list a.active.item,
+.fb.inverted.link.list .active.item a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*-------------------
+      Selection
+--------------------*/
+
+.fb.selection.list .item {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0.5em;
+  -webkit-transition: 0.2s color ease,
+    0.2s padding-left ease,
+    0.2s background-color ease;
+  transition: 0.2s color ease,
+    0.2s padding-left ease,
+    0.2s background-color ease;
+}
+
+.fb.selection.list .item:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fb.selection.list .item:active {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fb.selection.list .item.active {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.fb.animated.list .item {
+  -webkit-transition: 0.2s color ease,
+    0.2s padding-left ease,
+    0.2s background-color ease;
+  transition: 0.2s color ease,
+    0.2s padding-left ease,
+    0.2s background-color ease;
+}
+
+.fb.animated.list:not(.horizontal) .item:hover {
+  padding-left: 1em;
+}
+
+.fb.animated.list:not(.horizontal) .item:hover .item:hover {
+  padding-left: 0.5em;
+}
+
+/* Inverted */
+
+.fb.inverted.selection.list .item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.fb.inverted.selection.list .item:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fb.inverted.selection.list .item:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.fb.inverted.selection.list .item.active {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+}
+
+/*-------------------
+      Bulleted
+--------------------*/
+
+ul.fb.list,
+.fb.bulleted.list {
+  margin-left: 1.5em;
+}
+
+ul.fb.list li,
+.fb.bulleted.list .item {
+  position: relative;
+}
+
+ul.fb.list li:before,
+.fb.bulleted.list .item:before {
+  position: absolute;
+  left: -1.5em;
+  content: '•';
+}
+
+ul.fb.list ul,
+.fb.bulleted.list .list {
+  padding-left: 1.5em;
+}
+
+/* Horizontal Bulleted */
+
+ul.fb.horizontal.bulleted.list,
+.fb.horizontal.bulleted.list {
+  margin-left: 0em;
+}
+
+ul.fb.horizontal.bulleted.list li,
+.fb.horizontal.bulleted.list .item {
+  margin-left: 1.5em;
+}
+
+ul.fb.horizontal.bulleted.list li:before,
+.fb.horizontal.bulleted.list .item:before {
+  left: -0.9em;
+}
+
+ul.fb.horizontal.bulleted.list li:first-child,
+.fb.horizontal.bulleted.list .item:first-child {
+  margin-left: 0em;
+}
+
+ul.fb.horizontal.bulleted.list li:first-child::before,
+.fb.horizontal.bulleted.list .item:first-child::before {
+  display: none;
+}
+
+/*-------------------
+       Ordered
+--------------------*/
+
+ol.fb.list,
+.fb.ordered.list {
+  counter-reset: ordered;
+  margin-left: 2em;
+  list-style-type: none;
+}
+
+ol.fb.list li,
+.fb.ordered.list .item {
+  list-style-type: none;
+  position: relative;
+}
+
+ol.fb.list li:before,
+.fb.ordered.list .item:before {
+  position: absolute;
+  left: -2em;
+  counter-increment: ordered;
+  content: counters(ordered, ".");
+  text-align: right;
+  vertical-align: top;
+  opacity: 0.75;
+}
+
+ol.fb.list ol,
+.fb.ordered.list .list {
+  counter-reset: ordered;
+  padding-left: 2.5em;
+}
+
+ol.fb.list ol li:before,
+.fb.ordered.list .list .item:before {
+  left: -2.5em;
+}
+
+/* Horizontal Ordered */
+
+ol.fb.horizontal.list,
+.fb.ordered.horizontal.list {
+  margin-left: 0em;
+}
+
+ol.fb.horizontal.list li:before,
+.fb.ordered.horizontal.list .item:before {
+  position: static;
+  left: 0em;
+  margin: 0em 0.5em 0em 0em;
+}
+
+/*-------------------
+       Divided
+--------------------*/
+
+.fb.divided.list > .item,
+.fb.divided.list:not(.horizontal) > .list {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.fb.divided.list .item .menu .item {
+  border-width: 0px;
+}
+
+.fb.divided.list .item:first-child {
+  border-top-width: 0px;
+}
+
+/* Sub Menu */
+
+.fb.divided.list:not(.horizontal) .list {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+.fb.divided.list:not(.horizontal) .list .item {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.fb.divided.list:not(.horizontal) .list .item:first-child {
+  border-top-width: 1px;
+}
+
+/* Divided bulleted */
+
+.fb.divided.bulleted.list {
+  margin-left: 0em;
+}
+
+.fb.divided.bulleted.list .item {
+  padding-left: 1.5em;
+}
+
+.fb.divided.bulleted.list .item:before {
+  left: 0.5em;
+}
+
+/* Divided ordered */
+
+.fb.divided.ordered.list {
+  margin-left: 0em;
+}
+
+.fb.divided.ordered.list > .item {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.fb.divided.ordered.list > .item:before {
+  left: 0.5em;
+}
+
+.fb.divided.ordered.list .item .list {
+  margin-left: -2em;
+  margin-right: -2em;
+}
+
+/* Divided horizontal */
+
+.fb.divided.horizontal.list {
+  margin-left: 0em;
+}
+
+.fb.divided.horizontal.list > .item {
+  border-top: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  line-height: 0.6em;
+}
+
+.fb.horizontal.divided.list > .item:first-child {
+  border-left: none;
+  padding-left: 0em;
+}
+
+/* Inverted */
+
+.fb.divided.inverted.list > .item,
+.fb.divided.inverted.list > .list {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.fb.divided.inverted.horizontal.list .item {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*-------------------
+        Celled
+--------------------*/
+
+.fb.celled.list > .item,
+.fb.celled.list > .list {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.fb.celled.list > .item:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Sub Menu */
+
+.fb.celled.list .item .list {
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+.fb.celled.list .item .list .item {
+  border-width: 0px;
+}
+
+.fb.celled.list .list .item:first-child {
+  border-top-width: 0px;
+}
+
+/* Celled Bulleted */
+
+.fb.celled.bulleted.list {
+  margin-left: 0em;
+}
+
+.fb.celled.bulleted.list > .item {
+  padding-left: 1.5em;
+}
+
+.fb.celled.bulleted.list > .item:before {
+  left: 0.5em;
+}
+
+/* Celled Ordered */
+
+.fb.celled.ordered.list {
+  margin-left: 0em;
+}
+
+.fb.celled.ordered.list .item {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.fb.celled.ordered.list .item:before {
+  left: 0.5em;
+}
+
+.fb.celled.ordered.list .item .list {
+  margin-left: -2em;
+  margin-right: -2em;
+}
+
+/* Celled Horizontal */
+
+.fb.horizontal.celled.list {
+  margin-left: 0em;
+}
+
+.fb.horizontal.celled.list .item {
+  border-top: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  line-height: 0.6em;
+}
+
+.fb.horizontal.celled.list .item:last-child {
+  border-bottom: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Inverted */
+
+.fb.celled.inverted.list > .item,
+.fb.celled.inverted.list > .list {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.fb.celled.inverted.horizontal.list .item {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/*-------------------
+       Relaxed
+--------------------*/
+
+.fb.relaxed.list:not(.horizontal) .item {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.fb.relaxed.list .header {
+  margin-bottom: 0.25em;
+}
+
+.fb.horizontal.relaxed.list .item {
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}
+
+.fb.very.relaxed.list:not(.horizontal) .item {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.fb.very.relaxed.list .header {
+  margin-bottom: 0.5em;
+}
+
+.fb.horizontal.very.relaxed.list .item {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/*-------------------
+      Sizes
+--------------------*/
+
+.fb.mini.list .item {
+  font-size: 0.7rem;
+}
+
+.fb.tiny.list .item {
+  font-size: 0.8125rem;
+}
+
+.fb.small.list .item {
+  font-size: 0.875rem;
+}
+
+.fb.list .item {
+  font-size: 1em;
+}
+
+.fb.large.list .item {
+  font-size: 1.125rem;
+}
+
+.fb.big.list .item {
+  font-size: 1.25rem;
+}
+
+.fb.huge.list .item {
+  font-size: 1.375rem;
+}
+
+.fb.massive.list .item {
+  font-size: 1.5rem;
+}
