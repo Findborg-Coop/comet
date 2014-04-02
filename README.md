@@ -25,3 +25,6 @@ it all the while having a more "readable" front end experience.
 
 I will set up a demo,  and a group in findborg recall as soon as I get a chance.  If you can not wait for the demo you can visit
 http://findborg.com and see it.  Ofcourse,  you will be looking at a work in progress..
+
+
+Ok,  I added a group for Comet on <a href="http://www.findborg.com/recall/groups/item/4-cometframework">ReCall</a>
