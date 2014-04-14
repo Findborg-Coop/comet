@@ -56,7 +56,7 @@
 <div id="nav-outer" style="margin-left:<?php echo $this->params->get('navouter_marginleft');?>;margin-top: <?php echo $this->params->get('navouter_margintop');?>;margin-bottom:<?php echo $this->params->get('navouter_marginbottom');?>;margin-right:<?php echo $this->params->get('navouter_marginright');?>; max-width:<?php echo $this->params->get('navouter_maxwidth');?>;" class="">
 	<div id="headernav-strip"class="strip" style="background:<?php echo $this->params->get('navouter_background');?>;">
 		<div id="navwrap-inner" class="" style="background:<?php echo $this->params->get('navmod_background');?>; margin-left:<?php echo $this->params->get('navmod_marginleft');?>;margin-right:<?php echo $this->params->get('navmod_marginright');?>; max-width:<?php echo $this->params->get('navmod_maxwidth');?>;color:<?php echo $this->params->get('nav_Textcolor');?>;">
-		<div class="clearfix leading-3 mb1 fb accent white dark">
+		<div class="clearfix leading-3 fb accent white dark">
 		<div class="left px1 leading-3"><a class="left px1 p bold leading-3"href="<?php echo JURI::base(true) ?>"style="color:black">
 						Findborg
 						<!-- <span>findborg</span> -->
@@ -87,7 +87,7 @@
 <?php endif; ?>
 <!-- SEARCH BAR -->
 <div class="">
-  <div id="subnavwrap-outer" style="min-height: 35px;box-shadow: 0 1px #F5F5F5;margin-left:<?php echo $subnavouter_marginleft;?>;margin-top: <?php echo $subnavouter_margintop;?>;margin-bottom:<?php echo $subnavouter_marginbottom;?>;margin-right:<?php echo $subnavouter_marginright;?>; max-width:<?php echo $subnavouter_maxwidth;?>;">
+  <div id="subnavwrap-outer" style="box-shadow: 0 1px #F5F5F5;margin-left:<?php echo $subnavouter_marginleft;?>;margin-top: <?php echo $subnavouter_margintop;?>;margin-bottom:<?php echo $subnavouter_marginbottom;?>;margin-right:<?php echo $subnavouter_marginright;?>; max-width:<?php echo $subnavouter_maxwidth;?>;">
 	<div class="strip" style="background:<?php echo $subnavouter_background;?>;">
 		<div id="subnavwrap-inner" class="" style="position:relative; background:<?php echo $subnavmod_background;?>; margin-left:<?php echo $subnavmod_marginleft;?>;margin-right:<?php echo $subnavmod_marginright;?>; max-width:<?php echo $subnavmod_maxwidth;?>;color:<?php echo $subnav_Textcolor;?>;">
 		
