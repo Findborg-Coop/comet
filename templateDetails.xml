@@ -138,8 +138,8 @@
 	      		<field name="topouter_marginright" type="text" default="auto" label="Top Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="topouter_margintop" type="text" default="0px" label="Top Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="topouter_marginbottom" type="text" default="0px" label="Top Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="topouter_maxwidth" type="text" default="960px" label="Top Outer Max Width" description="Enter your max width commands" />
-				<field name="topmod_maxwidth" type="text" default="960px" label="Top Mod Max Width" description="Enter your max width commands" />
+	      		<field name="topouter_maxwidth" type="text" default="74em" label="Top Outer Max Width" description="Enter your max width commands" />
+				<field name="topmod_maxwidth" type="text" default="74em" label="Top Mod Max Width" description="Enter your max width commands" />
 				<field name="top_Textcolor" class="" type="color" default="#444"
 					label="Top Text Color" />
 				<field name="topmod_marginleft" type="text" default="auto" label="Top Mod Margin-Left" description="Enter your left margin commands" />
@@ -155,8 +155,8 @@
 	      		<field name="navouter_marginright" type="text" default="auto" label="Navigation Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="navouter_margintop" type="text" default="0px" label="Navigation Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="navouter_marginbottom" type="text" default="0px" label="Navigation Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="navouter_maxwidth" type="text" default="960px" label="Navigation Outer Max Width" description="Enter your max width commands" />
-				<field name="navmod_maxwidth" type="text" default="960px" label="Navigation Mod Max Width" description="Enter your max width commands" />
+	      		<field name="navouter_maxwidth" type="text" default="74em" label="Navigation Outer Max Width" description="Enter your max width commands" />
+				<field name="navmod_maxwidth" type="text" default="74em" label="Navigation Mod Max Width" description="Enter your max width commands" />
 				<field name="nav_Textcolor" class="" type="color" default="#444"
 					label="Navigation Text Color" />
 				<field name="navmod_marginleft" type="text" default="auto" label="Navigation Mod Margin-Left" description="Enter your left margin commands" />
@@ -173,8 +173,8 @@
 	      		<field name="headouter_marginright" type="text" default="auto" label="Header Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="headouter_margintop" type="text" default="0px" label="Header Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="headouter_marginbottom" type="text" default="0px" label="Header Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="headouter_maxwidth" type="text" default="960px" label="Head Outer Max Width" description="Enter your max width commands" />
-				<field name="headmod_maxwidth" type="text" default="960px" label="Header Mod Max Width" description="Enter your max width commands" />
+	      		<field name="headouter_maxwidth" type="text" default="74em" label="Head Outer Max Width" description="Enter your max width commands" />
+				<field name="headmod_maxwidth" type="text" default="74em" label="Header Mod Max Width" description="Enter your max width commands" />
 				<field name="head_Textcolor" class="" type="color" default="#444"
 					label="Header Text Color" />
 				<field name="headmod_marginleft" type="text" default="auto" label="Header Mod Margin-Left" description="Enter your left margin commands" />
@@ -190,8 +190,8 @@
 	      		<field name="subnavouter_marginright" type="text" default="auto" label="Sub-Navigation Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="subnavouter_margintop" type="text" default="0px" label="Sub-Navigation Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="subnavouter_marginbottom" type="text" default="0px" label="Sub-Navigation Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="subnavouter_maxwidth" type="text" default="960px" label="Sub-Navigation Outer Max Width" description="Enter your max width commands" />
-				<field name="subnavmod_maxwidth" type="text" default="960px" label="Sub-Navigation Mod Max Width" description="Enter your max width commands" />
+	      		<field name="subnavouter_maxwidth" type="text" default="74em" label="Sub-Navigation Outer Max Width" description="Enter your max width commands" />
+				<field name="subnavmod_maxwidth" type="text" default="74em" label="Sub-Navigation Mod Max Width" description="Enter your max width commands" />
 				<field name="subnav_Textcolor" class="" type="color" default="#444"
 					label="Sub-Navigation Text Color" />
 				<field name="subnavmod_marginleft" type="text" default="auto" label="Sub-Navigation Mod Margin-Left" description="Enter your left margin commands" />
@@ -207,8 +207,8 @@
 	      		<field name="drawerouter_marginright" type="text" default="auto" label="Drawer Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="drawerouter_margintop" type="text" default="0px" label="Drawer Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="drawerouter_marginbottom" type="text" default="0px" label="Drawer Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="drawerouter_maxwidth" type="text" default="960px" label="Drawer Outer Max Width" description="Enter your max width commands" />
-				<field name="drawermod_maxwidth" type="text" default="960px" label="Drawer Mod Max Width" description="Enter your max width commands" />
+	      		<field name="drawerouter_maxwidth" type="text" default="74em" label="Drawer Outer Max Width" description="Enter your max width commands" />
+				<field name="drawermod_maxwidth" type="text" default="74em" label="Drawer Mod Max Width" description="Enter your max width commands" />
 				<field name="drawer_Textcolor" class="" type="color" default="#444"
 					label="Drawer Text Color" />
 				<field name="drawermod_marginleft" type="text" default="auto" label="Drawer Mod Margin-Left" description="Enter your left margin commands" />
@@ -226,8 +226,8 @@
 	      		<field name="showouter_marginright" type="text" default="auto" label="Showcase Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="showouter_margintop" type="text" default="0px" label="Showcase Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="showouter_marginbottom" type="text" default="0px" label="Showcase Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="showouter_maxwidth" type="text" default="960px" label="Showcase Outer Max Width" description="Enter your max width commands" />
-				<field name="showmod_maxwidth" type="text" default="960px" label="Showcase Mod Max Width" description="Enter your max width commands" />
+	      		<field name="showouter_maxwidth" type="text" default="74em" label="Showcase Outer Max Width" description="Enter your max width commands" />
+				<field name="showmod_maxwidth" type="text" default="74em" label="Showcase Mod Max Width" description="Enter your max width commands" />
 				<field name="show_Textcolor" class="" type="color" default="#444"
 					label="Showcase Text Color" />
 				<field name="showmod_marginleft" type="text" default="auto" label="Showcase Mod Margin-Left" description="Enter your left margin commands" />
@@ -243,8 +243,8 @@
 	      		<field name="utilityouter_marginright" type="text" default="auto" label="Utility Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="utilityouter_margintop" type="text" default="0px" label="Utility Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="utilityouter_marginbottom" type="text" default="0px" label="Utility Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="utilityouter_maxwidth" type="text" default="960px" label="Utility Outer Max Width" description="Enter your max width commands" />
-				<field name="utilitymod_maxwidth" type="text" default="960px" label="Utility Mod Max Width" description="Enter your max width commands" />
+	      		<field name="utilityouter_maxwidth" type="text" default="74em" label="Utility Outer Max Width" description="Enter your max width commands" />
+				<field name="utilitymod_maxwidth" type="text" default="74em" label="Utility Mod Max Width" description="Enter your max width commands" />
 				<field name="utility_Textcolor" class="" type="color" default="#444"
 					label="Utility Text Color" />
 				<field name="utilitymod_marginleft" type="text" default="auto" label="Utility Mod Margin-Left" description="Enter your left margin commands" />
@@ -262,8 +262,8 @@
 	      		<field name="featureouter_marginright" type="text" default="auto" label="Feature Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="featureouter_margintop" type="text" default="0px" label="Feature Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="featureouter_marginbottom" type="text" default="0px" label="Feature Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="featureouter_maxwidth" type="text" default="960px" label="Feature Outer Max Width" description="Enter your max width commands" />
-				<field name="featuremod_maxwidth" type="text" default="960px" label="Feature Mod Max Width" description="Enter your max width commands" />
+	      		<field name="featureouter_maxwidth" type="text" default="74em" label="Feature Outer Max Width" description="Enter your max width commands" />
+				<field name="featuremod_maxwidth" type="text" default="74em" label="Feature Mod Max Width" description="Enter your max width commands" />
 				<field name="feature_Textcolor" class="" type="color" default="#444"
 					label="Feature Text Color" />
 				<field name="featuremod_marginleft" type="text" default="auto" label="Feature Mod Margin-Left" description="Enter your left margin commands" />
@@ -281,8 +281,8 @@
 	      		<field name="mtopouter_marginright" type="text" default="auto" label="Maintop Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="mtopouter_margintop" type="text" default="0px" label="Maintop Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="mtopouter_marginbottom" type="text" default="0px" label="Maintop Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="mtopouter_maxwidth" type="text" default="960px" label="Maintop Outer Max Width" description="Enter your max width commands" />
-				<field name="mtopmod_maxwidth" type="text" default="960px" label="Maintop Mod Max Width" description="Enter your max width commands" />
+	      		<field name="mtopouter_maxwidth" type="text" default="74em" label="Maintop Outer Max Width" description="Enter your max width commands" />
+				<field name="mtopmod_maxwidth" type="text" default="74em" label="Maintop Mod Max Width" description="Enter your max width commands" />
 				<field name="mtop_Textcolor" class="" type="color" default="#444"
 					label="Maintop Text Color" />
 				<field name="mtopmod_marginleft" type="text" default="auto" label="Maintop Mod Margin-Left" description="Enter your left margin commands" />
@@ -300,8 +300,8 @@
 	      		<field name="fwidthouter_marginright" type="text" default="auto" label="Fullwidth Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="fwidthouter_margintop" type="text" default="0px" label="Fullwidth Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="fwidthouter_marginbottom" type="text" default="0px" label="Fullwidth Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="fwidthouter_maxwidth" type="text" default="960px" label="Fullwidth Outer Max Width" description="Enter your max width commands" />
-				<field name="fwidthmod_maxwidth" type="text" default="960px" label="Fullwidth Mod Max Width" description="Enter your max width commands" />
+	      		<field name="fwidthouter_maxwidth" type="text" default="74em" label="Fullwidth Outer Max Width" description="Enter your max width commands" />
+				<field name="fwidthmod_maxwidth" type="text" default="74em" label="Fullwidth Mod Max Width" description="Enter your max width commands" />
 				<field name="fwidth_Textcolor" class="" type="color" default="#444"
 					label="Fullwidth Text Color" />
 				<field name="fwidthmod_marginleft" type="text" default="auto" label="Fullwidth Mod Margin-Left" description="Enter your left margin commands" />
@@ -320,8 +320,8 @@
 	      		<field name="mbottomouter_marginright" type="text" default="auto" label="Mainbottom Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="mbottomouter_margintop" type="text" default="0px" label="Mainbottom Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="mbottomouter_marginbottom" type="text" default="0px" label="Mainbottom Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="mbottomouter_maxwidth" type="text" default="960px" label="Mainbottom Outer Max Width" description="Enter your max width commands" />
-				<field name="mbottommod_maxwidth" type="text" default="960px" label="Mainbottom Mod Max Width" description="Enter your max width commands" />
+	      		<field name="mbottomouter_maxwidth" type="text" default="74em" label="Mainbottom Outer Max Width" description="Enter your max width commands" />
+				<field name="mbottommod_maxwidth" type="text" default="74em" label="Mainbottom Mod Max Width" description="Enter your max width commands" />
 				<field name="mbottom_Textcolor" class="" type="color" default="#444"
 					label="Mainbottom Text Color" />
 				<field name="mbottommod_marginleft" type="text" default="auto" label="Mainbottom Mod Margin-Left" description="Enter your left margin commands" />
@@ -339,8 +339,8 @@
 	      		<field name="bottomouter_marginright" type="text" default="auto" label="Bottom Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="bottomouter_margintop" type="text" default="0px" label="Bottom Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="bottomouter_marginbottom" type="text" default="0px" label="Bottom Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="bottomouter_maxwidth" type="text" default="960px" label="Bottom Outer Max Width" description="Enter your max width commands" />
-				<field name="bottommod_maxwidth" type="text" default="960px" label="Bottom Mod Max Width" description="Enter your max width commands" />
+	      		<field name="bottomouter_maxwidth" type="text" default="74em" label="Bottom Outer Max Width" description="Enter your max width commands" />
+				<field name="bottommod_maxwidth" type="text" default="74em" label="Bottom Mod Max Width" description="Enter your max width commands" />
 				<field name="bottom_Textcolor" class="" type="color" default="#444"
 					label="Bottom Text Color" />
 				<field name="bottommod_marginleft" type="text" default="auto" label="Bottom Mod Margin-Left" description="Enter your left margin commands" />
@@ -358,8 +358,8 @@
 	      		<field name="footerouter_marginright" type="text" default="auto" label="Footer Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="footerouter_margintop" type="text" default="0px" label="Footer Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="footerouter_marginbottom" type="text" default="0px" label="Footer Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="footerouter_maxwidth" type="text" default="960px" label="Footer Outer Max Width" description="Enter your max width commands" />
-				<field name="footermod_maxwidth" type="text" default="960px" label="Footer Mod Max Width" description="Enter your max width commands" />
+	      		<field name="footerouter_maxwidth" type="text" default="74em" label="Footer Outer Max Width" description="Enter your max width commands" />
+				<field name="footermod_maxwidth" type="text" default="74em" label="Footer Mod Max Width" description="Enter your max width commands" />
 				<field name="footer_Textcolor" class="" type="color" default="#444"
 					label="Footer Text Color" />
 				<field name="footermod_marginleft" type="text" default="auto" label="Footer Mod Margin-Left" description="Enter your left margin commands" />
@@ -376,8 +376,8 @@
 	      		<field name="copyouter_marginright" type="text" default="auto" label="Copyright Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="copyouter_margintop" type="text" default="0px" label="Copyright Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="copyouter_marginbottom" type="text" default="0px" label="Copyright Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="copyouter_maxwidth" type="text" default="960px" label="Copyright Outer Max Width" description="Enter your max width commands" />
-				<field name="copymod_maxwidth" type="text" default="960px" label="Copyright Mod Max Width" description="Enter your max width commands" />
+	      		<field name="copyouter_maxwidth" type="text" default="74em" label="Copyright Outer Max Width" description="Enter your max width commands" />
+				<field name="copymod_maxwidth" type="text" default="74em" label="Copyright Mod Max Width" description="Enter your max width commands" />
 				<field name="copy_Textcolor" class="" type="color" default="#444"
 					label="Copyright Text Color" />
 				<field name="copymod_marginleft" type="text" default="auto" label="Copyright Mod Margin-Left" description="Enter your left margin commands" />
@@ -393,8 +393,8 @@
 	      		<field name="breadouter_marginright" type="text" default="auto" label="Breadcrumb Outer Margin-Right" description="Enter your right margin commands" />
 				<field name="breadouter_margintop" type="text" default="0px" label="Breadcrumb Outer Margin-Top" description="Enter your top margin commands" />
 				<field name="breadouter_marginbottom" type="text" default="0px" label="Breadcrumb Outer Margin-Bottom" description="Enter your bottom margin commands" />
-	      		<field name="breadouter_maxwidth" type="text" default="960px" label="Breadcrumb Outer Max Width" description="Enter your max width commands" />
-				<field name="breadmod_maxwidth" type="text" default="960px" label="Breadcrumb Mod Max Width" description="Enter your max width commands" />
+	      		<field name="breadouter_maxwidth" type="text" default="74em" label="Breadcrumb Outer Max Width" description="Enter your max width commands" />
+				<field name="breadmod_maxwidth" type="text" default="74em" label="Breadcrumb Mod Max Width" description="Enter your max width commands" />
 				<field name="bread_Textcolor" class="" type="color" default="#444"
 					label="Breadcrumb Text Color" />
 				<field name="breadmod_marginleft" type="text" default="auto" label="Breadcrumb Mod Margin-Left" description="Enter your left margin commands" />
@@ -588,8 +588,8 @@
 				<field name="maincontentouter_marginbottom" type="text" default="0px" label="MainContent Outer Margin-Bottom" description="Enter your bottom margin commands" />
 				<field name="maincontentouter_paddingtop" type="text" default="0px" label="MainContent Outer Pad-Top" description="Enter your top padding commands" />
 				<field name="maincontentouter_paddingbottom" type="text" default="0px" label="MainContent Outer Pad-Bottom" description="Enter your bottom padding commands" />
-	      		<field name="maincontentouter_maxwidth" type="text" default="960px" label="MainContent Outer Max Width" description="Enter your max width commands" />
-				<field name="maincontentmod_maxwidth" type="text" default="960px" label="MainContent Mod Max Width" description="Enter your max width commands" />
+	      		<field name="maincontentouter_maxwidth" type="text" default="74em" label="MainContent Outer Max Width" description="Enter your max width commands" />
+				<field name="maincontentmod_maxwidth" type="text" default="74em" label="MainContent Mod Max Width" description="Enter your max width commands" />
 				<field name="maincontentmod_marginleft" type="text" default="auto" label="Main Content Inner Margin-Left" description="Enter your left margin commands" />
 	      		<field name="maincontentmod_marginright" type="text" default="auto" label="Main Content Inner Margin-Right" description="Enter your right margin commands" />
 				<field name="maincontent_Textcolor" class="" type="color" default="#444"
