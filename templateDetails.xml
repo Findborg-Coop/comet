@@ -436,6 +436,10 @@
 					<option value="1">Show</option>
 					<option value="0">Hide</option>
 				</field>
+				<field name="showCopysection" type="radio" class="btn-group" default="1" label="Show Hide Copy Area" description="Turn the entire copyright area on or off">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
 				<field name="showCopy"
 					type="radio"
 					class="btn-group btn-group-yesno"
@@ -450,7 +454,7 @@
 					label="Copy Text"
 					description="Enter the name of your business"
 					filter="string" />
-
+				
 
 
 			<field name="showtop" type="radio" class="btn-group" default="1" label="Activate GoTo Top" description="Turn the goto top link on or off">

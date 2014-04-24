@@ -50,6 +50,7 @@
 </div> 
 <!-- FOOTER MODULE AREA END -->
 <?php endif; ?>
+<?php if ($this->params->get('showCopysection') == '1'):?>
 <!-- COPYRIGHT AREA -->
 <div id="copywrap-outer" style="margin-left:<?php echo $copyouter_marginleft;?>;margin-top: <?php echo $copyouter_margintop;?>;margin-bottom:<?php echo $copyouter_marginbottom;?>;margin-right:<?php echo $copyouter_marginright;?>; max-width:<?php echo $copyouter_maxwidth;?>;">
 <div class="strip" style="background:<?php echo $copyouter_background;?>;">
@@ -103,7 +104,7 @@
 </div>
 </div> 
  <div id="bj"></div> 
-
- 
+ <?php endif; ?>
   <!-- COPYRIGHT AREA END -->
+
 <div><jdoc:include type="modules" name="debug" style="none" /></div>
